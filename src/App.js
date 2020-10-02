@@ -12,7 +12,6 @@ function App() {
   console.log(details);
   return (
     <React.Fragment>
-      {/* <Contributors details={details}></Contributors> */}
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
