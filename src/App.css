@@ -1,3 +1,51 @@
-.App {
-  
+/* Home */
+/* Event */
+/* Programming */
+/*  Result */
+
+/* 
+Contributors
+*/
+
+.profile {
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* border: 1px solid blue; */
+}
+
+.contributor {
+  margin: 5px;
+  padding: 10px;
+  width: 300px;
+  /* border: 1px solid green; */
+  text-align: center;
+}
+
+.contributor img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+.desc {
+  text-align: justify;
+  padding: 3px;
+}
+
+.name {
+  margin-bottom: 5px;
+}
+
+.contact {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .contributor {
+    width: 100%;
+  }
 }

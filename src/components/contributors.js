@@ -1,14 +1,27 @@
-import React, {Component} from 'react';
+import React from "react";
 
-class Contributor extends Component {
-    render() {
-        return(
-            <div>
-                <h1>Contributor</h1>
-            </div>
-        )
-    }
+let mapDetail = (detail) => {
+  return (
+    <div className="contributor" key={detail.id}>
+      <img src={detail.profile} alt="profile" />
+      <div className="about">
+        <div className="name">{detail.name}</div>
+        <div className="desc">{detail.description}</div>
+      </div>
+      <div className="contact">
+        {detail.contact.map((contact) => (
+          <a key="contact.id" href={contact.link}>
+            Profile
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default function Contributors(props) {
+  const data = props.details;
+  return (
+    <div className="profile">{data.map((detail) => mapDetail(detail))}</div>
+  );
 }
-
-
-export default Contributor;

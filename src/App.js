@@ -1,13 +1,15 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
-import Home from './components/home.js';
-import Events from './components/event.js';
-import Programming from './components/programming.js';
-import Result from './components/result.js';
-import Contributors from './components/contributors.js';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
+import Home from "./components/home.js";
+import Events from "./components/event.js";
+import Programming from "./components/programming.js";
+import Result from "./components/result.js";
+import Contributors from "./components/contributors.js";
+import details from "./contributors_details.json";
 
 function App() {
+  console.log(details);
   return (
     <React.Fragment>
       <Router>
@@ -16,7 +18,10 @@ function App() {
           <Route exact path="/event" component={Events} />
           <Route exact path="/programming" component={Programming} />
           <Route exact path="/result" component={Result} />
-          <Route exact path="/contributors" component={Contributors} />
+          <Route
+            path="/contributors"
+            render={(props) => <Contributors details={details} {...props} />}
+          />
         </Switch>
       </Router>
     </React.Fragment>
