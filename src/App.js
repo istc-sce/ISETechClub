@@ -17,9 +17,9 @@ function App() {
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/event" component={Events} />
-            <Route exact path="/programming" component={Programming} />
-            <Route exact path="/result" component={Result} />
+            <Route path="/event" component={Events} />
+            <Route path="/programming" component={Programming} />
+            <Route path="/result" component={Result} />
             <Route
               path="/contributors"
               render={(props) => <Contributors details={details} {...props} />}
