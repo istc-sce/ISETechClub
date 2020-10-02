@@ -4,7 +4,7 @@ class Event extends Component {
     render() {
         return(
             <div>
-                <h1>Event</h1>
+                <h1>Event!</h1>
             </div>
         )
     }
