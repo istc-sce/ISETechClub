@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 let mapDetail = (detail) => {
   console.log(detail);
@@ -10,7 +10,6 @@ let mapDetail = (detail) => {
         <div className="desc">{detail.description}</div>
       </div>
       <div className="contact">
-        You can find me here:{" "}
         {detail.contact.map((contact) => (
           <a key="contact.id" href={contact.link}>
             Profile
@@ -21,24 +20,9 @@ let mapDetail = (detail) => {
   );
 };
 
-class Contributor extends Component {
-  constructor(props) {
-    super();
-    this.state = {
-      data: props.details,
-    };
-  }
-  render() {
-    console.log(this.state);
-    return (
-      <div>
-        <h1 style={{ "text-align": "center" }}>Contributors</h1>
-        <div className="profile">
-          {this.state.data.map((detail) => mapDetail(detail))}
-        </div>
-      </div>
-    );
-  }
+export default function Contributors(props) {
+  const data = props.details;
+  return (
+    <div className="profile">{data.map((detail) => mapDetail(detail))}</div>
+  );
 }
-
-export default Contributor;
