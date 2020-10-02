@@ -9,7 +9,6 @@ import Contributors from "./components/contributors.js";
 import details from "./contributors_details.json";
 
 function App() {
-  console.log(details);
   return (
     <React.Fragment>
       <Router>
