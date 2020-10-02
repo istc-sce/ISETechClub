@@ -1,7 +1,6 @@
 import React from "react";
 
 let mapDetail = (detail) => {
-  console.log(detail);
   return (
     <div className="contributor" key={detail.id}>
       <img src={detail.profile} alt="profile" />
