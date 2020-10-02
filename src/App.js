@@ -1,7 +1,11 @@
 import React from 'react';
-import Switch from 'react-bootstrap/esm/Switch';
-import { Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Home from './components/home.js';
+import Events from './components/event.js';
+import Programming from './components/programming.js';
+import Result from './components/result.js';
+import Contributors from './components/contributors.js';
 
 function App() {
   return (
