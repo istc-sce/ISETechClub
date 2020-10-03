@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe, faPhone } from '@fortawesome/fontawesome-free-solid'
+// eslint-disable-next-line
+import { faDesktop, faPhone } from '@fortawesome/fontawesome-free-solid'
 
 let mapDetail = (detail) => {
   return (
