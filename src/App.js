@@ -14,10 +14,10 @@ import { Nav, Navbar} from "react-bootstrap";
 function App() {
   return (
     <div>
-      <Navbar bg="light" varient="light" expand="lg">
+      <Navbar bg="light" collapseOnSelect={true} varient="light" expand="lg">
       <Navbar.Brand as={Link} to="/"><img src={process.env.PUBLIC_URL + '/favicon.ico'} alt="ISE Tech" className="homeIcon" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Collapse className="text-right" id="basic-navbar-nav">
         <Nav className="mr-auto">
         <Nav.Link eventKey="1" as={Link} to="/blogs">Blogs</Nav.Link>
         <Nav.Link eventKey="2" as={Link} to="/programming">Programming</Nav.Link>
