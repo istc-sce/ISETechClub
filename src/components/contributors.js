@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobe, faPhone } from '@fortawesome/fontawesome-free-solid'
 
 let mapDetail = (detail) => {
   return (
@@ -17,7 +19,7 @@ let mapDetail = (detail) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              Profile
+              <FontAwesomeIcon icon={contact.icon} />
             </a>
           ))}
         </div>
