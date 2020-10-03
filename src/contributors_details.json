@@ -33,12 +33,14 @@
     "contact": [
       {
         "id": "contact1",
+        "icon": "website",
         "link": "https://niranjanhegde144.github.io/portfolio/"
       },
       {
         "id": "contact2",
         "link": "mailto:example@gmail.com",
         "icon": "phone"
+      }
     ]
-  },
+  }
 ]
