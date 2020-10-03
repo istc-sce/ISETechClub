@@ -9,7 +9,7 @@ import Blogs from "./components/blogs.js";
 import Contributors from "./components/contributors.js";
 import details from "./contributors_details.json";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar} from "react-bootstrap";
 
 function App() {
   return (
