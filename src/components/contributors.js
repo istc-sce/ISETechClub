@@ -11,7 +11,12 @@ let mapDetail = (detail) => {
         </div>
         <div className="contact">
           {detail.contact.map((contact) => (
-            <a key="contact.id" href={contact.link}>
+            <a
+              key="contact.id"
+              href={contact.link}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               Profile
             </a>
           ))}
