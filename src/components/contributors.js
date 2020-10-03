@@ -1,6 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// eslint-disable-next-line
 import { faDesktop, faPhone } from '@fortawesome/fontawesome-free-solid'
 
 let mapDetail = (detail) => {
@@ -20,7 +19,14 @@ let mapDetail = (detail) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <FontAwesomeIcon icon={contact.icon} />
+              {(() => {
+                switch (contact.icon) {
+                  case "desktop":   return <FontAwesomeIcon icon={faDesktop} />;
+                  case "phone": return <FontAwesomeIcon icon={faPhone} />;
+                  default:      return <FontAwesomeIcon icon={faDesktop} />;
+                }
+              })()}
+              
             </a>
           ))}
         </div>
