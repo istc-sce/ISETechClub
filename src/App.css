@@ -6,20 +6,6 @@
   padding: 0;
 }
 
-.navBarContent {
-  position: absolute;
-  right: 30px;
-}
-
-@media screen and (max-width: 960px) {
-  .navBarToggle {
-    position: absolute;
-    right: auto;
-    left: auto;
-  }
-}
-
-
 /* Home */
 
 .bannerImage {
