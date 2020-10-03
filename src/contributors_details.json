@@ -7,6 +7,7 @@
     "contact": [
       {
         "id": "contact1",
+        "icon": "website",
         "link": "https://niranjanhegde144.github.io/portfolio/"
       }
     ]
@@ -19,56 +20,25 @@
     "contact": [
       {
         "id": "contact1",
+        "icon": "website",
         "link": "https://niranjanhegde144.github.io/portfolio/"
       }
     ]
   },
   {
-    "id": 2,
-    "name": "Person2",
+    "id": 3,
+    "name": "Person3",
     "description": "This is a small descritpion about the person",
     "profile": "https://via.placeholder.com/300x350?text=Profile+Picture+300x350",
     "contact": [
       {
         "id": "contact1",
         "link": "https://niranjanhegde144.github.io/portfolio/"
-      }
+      },
+      {
+        "id": "contact2",
+        "link": "mailto:example@gmail.com",
+        "icon": "phone"
     ]
   },
-  {
-    "id": 2,
-    "name": "Person2",
-    "description": "This is a small descritpion about the person",
-    "profile": "https://via.placeholder.com/300x350?text=Profile+Picture+300x350",
-    "contact": [
-      {
-        "id": "contact1",
-        "link": "https://niranjanhegde144.github.io/portfolio/"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Person2",
-    "description": "This is a small descritpion about the person",
-    "profile": "https://via.placeholder.com/300x350?text=Profile+Picture+300x350",
-    "contact": [
-      {
-        "id": "contact1",
-        "link": "https://niranjanhegde144.github.io/portfolio/"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Person2",
-    "description": "This is a small descritpion about the person",
-    "profile": "https://via.placeholder.com/300x350?text=Profile+Picture+300x350",
-    "contact": [
-      {
-        "id": "contact1",
-        "link": "https://niranjanhegde144.github.io/portfolio/"
-      }
-    ]
-  }
 ]
