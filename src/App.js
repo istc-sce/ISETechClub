@@ -17,8 +17,8 @@ function App() {
       <Navbar bg="light" collapseOnSelect={true} varient="light" expand="lg">
       <Navbar.Brand as={Link} to="/"><img src={process.env.PUBLIC_URL + '/favicon.ico'} alt="ISE Tech" className="homeIcon" /></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse className="text-right" id="basic-navbar-nav">
-        <Nav className="mr-auto">
+      <Navbar.Collapse className="text-right navBarContent" id="basic-navbar-nav">
+        <Nav>
         <Nav.Link eventKey="1" as={Link} to="/blogs">Blogs</Nav.Link>
         <Nav.Link eventKey="2" as={Link} to="/programming">Programming</Nav.Link>
         <Nav.Link eventKey="3" as={Link} to="/result">Result</Nav.Link>
