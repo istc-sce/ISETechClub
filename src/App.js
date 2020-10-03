@@ -9,23 +9,23 @@ import Blogs from "./components/blogs.js";
 import Contributors from "./components/contributors.js";
 import details from "./contributors_details.json";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 function App() {
   return (
     <div>
-      <Navbar bg="light" variant="light" collapseOnSelect={true} expand="lg">
-        <Navbar.Brand as={Link} to="/"><img src={process.env.PUBLIC_URL + '/favicon.ico'} alt="ISE Tech" className="homeIcon" /> </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse className="navBarToggle">
-        <Nav className="navBarContent">
-          <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
-          <Nav.Link as={Link} to="/programming">Programming</Nav.Link>
-          <Nav.Link as={Link} to="/result">Result</Nav.Link>
-          <Nav.Link as={Link} to="/contributors">Contributors</Nav.Link>
-          <Nav.Link as={Link} to="/notes">Notes</Nav.Link>
+      <Navbar bg="light" varient="light" expand="lg">
+      <Navbar.Brand as={Link} to="/"><img src={process.env.PUBLIC_URL + '/favicon.ico'} alt="ISE Tech" className="homeIcon" /></Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="mr-auto">
+        <Nav.Link eventKey="1" as={Link} to="/blogs">Blogs</Nav.Link>
+        <Nav.Link eventKey="2" as={Link} to="/programming">Programming</Nav.Link>
+        <Nav.Link eventKey="3" as={Link} to="/result">Result</Nav.Link>
+        <Nav.Link eventKey="4" as={Link} to="/contributors">Contributors</Nav.Link>
+        <Nav.Link eventKey="5" as={Link} to="/notes">Notes</Nav.Link>
         </Nav>
-        </Navbar.Collapse>
+      </Navbar.Collapse>
       </Navbar>
       <Route exact path="/" component={Home} />
       <Route path="/notes" component={Notes} />
