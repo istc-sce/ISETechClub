@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDesktop, faPhone } from '@fortawesome/fontawesome-free-solid'
 
 let mapDetail = (detail) => {
   return (
@@ -17,7 +19,14 @@ let mapDetail = (detail) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              Profile
+              {(() => {
+                switch (contact.icon) {
+                  case "desktop":   return <FontAwesomeIcon icon={faDesktop} />;
+                  case "phone": return <FontAwesomeIcon icon={faPhone} />;
+                  default:      return <FontAwesomeIcon icon={faDesktop} />;
+                }
+              })()}
+              
             </a>
           ))}
         </div>
