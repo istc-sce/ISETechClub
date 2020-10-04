@@ -7,8 +7,7 @@
 }
 
 .navBarContent {
-  position: absolute;
-  right: 30px;
+  justify-content: flex-end;
 }
 
 @media screen and (max-width: 960px) {
