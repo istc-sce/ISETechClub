@@ -1,73 +1,60 @@
 [
   {
     "id": 1,
-    "name": "Person1",
-    "description": "This is a small descritpion about the person.This is a small descritpion about the person.This is a small descritpion about the person.This is a small descritpion about the person.",
-    "profile": "https://via.placeholder.com/300x350?text=Profile+Picture+300x350",
+    "name": "Akram Kazmi",
+    "description": "Working at Niki.ai",
+    "profile": "https://avatars3.githubusercontent.com/u/40989391?s=460&u=3d8294720a7b1e086d0ca4d276060b3e5eb1adee&v=4",
     "contact": [
       {
         "id": "contact1",
-        "link": "https://niranjanhegde144.github.io/portfolio/"
+        "icon": "desktop",
+        "link": "https://akram-portfolio.netlify.app/"
+      },
+      {
+        "id": "contact2",
+        "icon": "github",
+        "link": "https://github.com/akramkazmi71"
+      },
+      {
+        "id": "contact3",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/akramkazmi71/"
       }
     ]
   },
   {
     "id": 2,
-    "name": "Person2",
-    "description": "This is a small descritpion about the person",
-    "profile": "https://via.placeholder.com/300x350?text=Profile+Picture+300x350",
+    "name": "Niranjan Hegde",
+    "description": "Interned at Nouvueau Labs",
+    "profile": "https://avatars3.githubusercontent.com/u/28218435?s=400&amp;u=ffb9101bbbcb7871980f9a98186342ec2742d62a",
     "contact": [
       {
         "id": "contact1",
+        "icon": "desktop",
         "link": "https://niranjanhegde144.github.io/portfolio/"
+      },
+      {
+        "id": "contact2",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/hegdeniranjan/"
+      },
+      {
+        "id": "contact3",
+        "icon": "github",
+        "link": "https://github.com/niranjanhegde144"
       }
     ]
   },
   {
-    "id": 2,
-    "name": "Person2",
-    "description": "This is a small descritpion about the person",
+    "id": 3,
+    "name": "Arjun CS",
+    "description": "Interned at Techqued Labs",
     "profile": "https://via.placeholder.com/300x350?text=Profile+Picture+300x350",
     "contact": [
       {
         "id": "contact1",
-        "link": "https://niranjanhegde144.github.io/portfolio/"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Person2",
-    "description": "This is a small descritpion about the person",
-    "profile": "https://via.placeholder.com/300x350?text=Profile+Picture+300x350",
-    "contact": [
-      {
-        "id": "contact1",
-        "link": "https://niranjanhegde144.github.io/portfolio/"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Person2",
-    "description": "This is a small descritpion about the person",
-    "profile": "https://via.placeholder.com/300x350?text=Profile+Picture+300x350",
-    "contact": [
-      {
-        "id": "contact1",
-        "link": "https://niranjanhegde144.github.io/portfolio/"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Person2",
-    "description": "This is a small descritpion about the person",
-    "profile": "https://via.placeholder.com/300x350?text=Profile+Picture+300x350",
-    "contact": [
-      {
-        "id": "contact1",
-        "link": "https://niranjanhegde144.github.io/portfolio/"
+        "icon": "linkedin",
+        "link": "#"
       }
     ]
   }

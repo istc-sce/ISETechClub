@@ -19,12 +19,11 @@
   }
 }
 
-
 /* Home */
 
 .bannerImage {
-    width: 90%;
-    height: auto;
+  width: 90%;
+  height: auto;
 }
 
 .homeBackground {
@@ -35,7 +34,6 @@
   height: 25px;
   width: 35px;
 }
-
 
 /* Event */
 /* Programming */
@@ -56,35 +54,35 @@ Contributors
 .contributor {
   margin: 5px;
   width: 300px;
-  height: 350px;
+  height: 100%;
   position: relative;
   text-align: center;
 }
 
 .contributor img {
   width: 100%;
-
   border-radius: 5px;
+  backface-visibility: hidden;
+  opacity: 1;
   height: auto;
 }
 
 .overlay {
   position: absolute;
-  top: 0;
+  top: 40%;
   bottom: 0;
   left: 0;
   right: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
-  padding: 10px;
-  transition: 0.6s ease-in;
-  background-color: #1a1200;
-  color: whitesmoke;
+  color: black;
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 .desc {
-  text-align: justify;
+  text-align: center;
   padding: 3px;
 }
 
@@ -93,7 +91,16 @@ Contributors
 }
 
 .contact {
-  margin-top: 5px;
+  margin: 5px 10%;
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.contributor:hover:hover img {
+  opacity: 0.5;
+  filter: blur(4px);
+  transition: 0.4s ease-in;
 }
 
 .contributor:hover .overlay {
