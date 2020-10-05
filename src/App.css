@@ -6,6 +6,17 @@
   padding: 0;
 }
 
+.homeIcon {
+  height: 25px;
+  width: 35px;
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  margin-left: 5px;
+}
+
 .navBarContent {
   justify-content: flex-end;
 }
@@ -27,11 +38,6 @@
 
 .homeBackground {
   background-color: #555555;
-}
-
-.homeIcon {
-  height: 25px;
-  width: 35px;
 }
 
 /* Event */
@@ -63,12 +69,13 @@ Contributors
   border-radius: 5px;
   backface-visibility: hidden;
   opacity: 1;
-  height: auto;
+  height: 100%;
+  transition: 0.6s ease-out;
 }
 
 .overlay {
   position: absolute;
-  top: 40%;
+  top: 0;
   bottom: 0;
   left: 0;
   right: 0;
@@ -79,7 +86,14 @@ Contributors
   font-size: 1.2em;
   font-weight: 500;
 }
+.about {
+  padding: 90px 0;
+  text-align: center;
+}
 
+.about p {
+  display: inline;
+}
 .desc {
   text-align: center;
   padding: 3px;
@@ -96,10 +110,10 @@ Contributors
   justify-content: space-evenly;
 }
 
-.contributor:hover:hover img {
+.contributor:hover img {
   opacity: 0.5;
   filter: blur(4px);
-  transition: 0.4s ease-in;
+  transition: 0.6s ease-in;
 }
 
 .contributor:hover .overlay {
@@ -107,10 +121,10 @@ Contributors
 }
 
 @media screen and (max-width: 600px) {
-  .profile {
+  /* .profile {
     margin: 0;
     padding: 0;
-  }
+  } */
   .contributor {
     width: 100%;
   }

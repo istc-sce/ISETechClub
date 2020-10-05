@@ -16,54 +16,61 @@ let mapDetail = (detail) => {
           <div className="name">
             <h3>{detail.name}</h3>
           </div>
-          <div className="desc">{detail.description}</div>
-        </div>
-        <div className="contact">
-          {detail.contact.map((contact) => (
-            <a
-              key="contact.id"
-              href={contact.link}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              {(() => {
-                switch (contact.icon) {
-                  case "desktop":
-                    return (
-                      <FontAwesomeIcon
-                        style={fontAwesomeStyle}
-                        icon={faDesktop}
-                        size="1.5x"
-                      />
-                    );
-                  case "linkedin":
-                    return (
-                      <FontAwesomeIcon
-                        style={fontAwesomeStyle}
-                        icon={faLinkedin}
-                        size="1.5x"
-                      />
-                    );
-                  case "github":
-                    return (
-                      <FontAwesomeIcon
-                        style={fontAwesomeStyle}
-                        icon={faGithub}
-                        size="1.5x"
-                      />
-                    );
-                  default:
-                    return (
-                      <FontAwesomeIcon
-                        style={fontAwesomeStyle}
-                        icon={faDesktop}
-                        size="1.5x"
-                      />
-                    );
-                }
-              })()}
-            </a>
-          ))}
+          <div className="desc">
+            {detail.description.map((orgDetails) => (
+              <div key={orgDetails.id}>
+                <p>{orgDetails.status} </p>
+                <a href={orgDetails.organization}>{orgDetails.name}</a>
+              </div>
+            ))}
+          </div>
+          <div className="contact">
+            {detail.contact.map((contact) => (
+              <a
+                key={contact.id}
+                href={contact.link}
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                {(() => {
+                  switch (contact.icon) {
+                    case "desktop":
+                      return (
+                        <FontAwesomeIcon
+                          style={fontAwesomeStyle}
+                          icon={faDesktop}
+                          size="lg"
+                        />
+                      );
+                    case "linkedin":
+                      return (
+                        <FontAwesomeIcon
+                          style={fontAwesomeStyle}
+                          icon={faLinkedin}
+                          size="lg"
+                        />
+                      );
+                    case "github":
+                      return (
+                        <FontAwesomeIcon
+                          style={fontAwesomeStyle}
+                          icon={faGithub}
+                          size="lg"
+                        />
+                      );
+                    default:
+                      return (
+                        <FontAwesomeIcon
+                          style={fontAwesomeStyle}
+                          icon={faDesktop}
+                          size="lg"
+                        />
+                      );
+                  }
+                })()}
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </div>
