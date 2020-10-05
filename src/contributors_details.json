@@ -8,6 +8,7 @@
       {
         "id": "contact1",
         "icon": "desktop",
+<<<<<<< HEAD
         "link": "https://akram-portfolio.netlify.app/"
       },
       {
@@ -55,6 +56,40 @@
         "id": "contact1",
         "icon": "linkedin",
         "link": "#"
+=======
+        "link": "https://niranjanhegde144.github.io/portfolio/"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Person2",
+    "description": "This is a small descritpion about the person",
+    "profile": "https://via.placeholder.com/300x350?text=Profile+Picture+300x350",
+    "contact": [
+      {
+        "id": "contact1",
+        "icon": "desktop",
+        "link": "https://niranjanhegde144.github.io/portfolio/"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Person3",
+    "description": "This is a small descritpion about the person",
+    "profile": "https://via.placeholder.com/300x350?text=Profile+Picture+300x350",
+    "contact": [
+      {
+        "id": "contact1",
+        "icon": "desktop",
+        "link": "https://niranjanhegde144.github.io/portfolio/"
+      },
+      {
+        "id": "contact2",
+        "link": "mailto:example@gmail.com",
+        "icon": "email"
+>>>>>>> 7301664a9a58339c07572e07e34ec9c698f54a1c
       }
     ]
   }
