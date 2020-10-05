@@ -20,7 +20,7 @@ let mapDetail = (detail) => {
             {detail.description.map((orgDetails) => (
               <div key={orgDetails.id}>
                 <p>{orgDetails.status} </p>
-                <a href={orgDetails.organization}>{orgDetails.name}</a>
+                <a href={orgDetails.organization} target="_blank" rel="noopener noreferrer">{orgDetails.name}</a>
               </div>
             ))}
           </div>
