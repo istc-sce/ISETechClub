@@ -7,7 +7,8 @@ import Result from "./components/result.js";
 import Notes from "./components/notes.js";
 import Blogs from "./components/blogs.js";
 import Contributors from "./components/contributors.js";
-import details from "./contributors_details.json";
+import home_details from "./home_content.json";
+import contributor_details from "./contributors_details.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar } from "react-bootstrap";
 
@@ -24,10 +25,13 @@ function App() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
-          className="text-right navBarContent"
+          className="text-center navBarContent"
           id="basic-navbar-nav"
         >
           <Nav>
+            <Nav.Link eventKey="5" as={Link} to="/notes">
+              Notes
+            </Nav.Link>
             <Nav.Link eventKey="1" as={Link} to="/blogs">
               Blogs
             </Nav.Link>
@@ -40,20 +44,18 @@ function App() {
             <Nav.Link eventKey="4" as={Link} to="/contributors">
               Contributors
             </Nav.Link>
-            <Nav.Link eventKey="5" as={Link} to="/notes">
-              Notes
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Route exact path="/" component={Home} />
+      <Route exact path="/" 
+        render={(props) => <Home details={home_details} {...props} />} />
       <Route path="/notes" component={Notes} />
       <Route path="/programming" component={Programming} />
       <Route path="/result" component={Result} />
       <Route path="/blogs" component={Blogs} />
       <Route
         path="/contributors"
-        render={(props) => <Contributors details={details} {...props} />}
+        render={(props) => <Contributors details={contributor_details} {...props} />}
       />
     </div>
   );

@@ -32,12 +32,37 @@
 /* Home */
 
 .bannerImage {
-  width: 90%;
+  width: 100%;
   height: auto;
 }
 
+@media screen and (max-width: 960px) {
+  .bannerImage {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .homeBackground {
-  background-color: #555555;
+  background-color: white;
+}
+
+.homeCard {
+  background: white !important;
+  color: #000000;
+  width: 98%;
+  height: auto;
+  border: grey 0.5px solid;
+  opacity: 0.75;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.homeCard:hover {
+  box-shadow: 7px 7px 5px grey;
 }
 
 /* Event */
