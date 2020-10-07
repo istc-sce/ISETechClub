@@ -7,7 +7,6 @@ import Result from "./components/result.js";
 import Notes from "./components/notes.js";
 import Blogs from "./components/blogs.js";
 import Contributors from "./components/contributors.js";
-import home_details from "./home_content.json";
 import contributor_details from "./contributors_details.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar } from "react-bootstrap";
@@ -47,8 +46,7 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Route exact path="/" 
-        render={(props) => <Home details={home_details} {...props} />} />
+      <Route exact path="/" component={Home} />
       <Route path="/notes" component={Notes} />
       <Route path="/programming" component={Programming} />
       <Route path="/result" component={Result} />
