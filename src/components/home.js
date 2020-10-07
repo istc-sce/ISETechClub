@@ -31,5 +31,4 @@ export default function Home(props) {
             <div>{data.map((detail) => mapDetail(detail))}</div>
         </div>
     );
-    {/*Need to create a similar function for Events, since we are keeping it in the same page.*/}
   }
