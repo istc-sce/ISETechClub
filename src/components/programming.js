@@ -4,7 +4,7 @@ class Programming extends Component {
     render() {
         return(
             <div>
-                <img className="bannerImageProgramming" src="https://picresize.com/images/rsz_under_const.png" alt="Under Construction" />
+                <img className="bannerImageProgramming" src={process.env.PUBLIC_URL + "/banner.png"} alt="Under Construction" />
             </div>
         )
     }
