@@ -41,6 +41,11 @@
 
 /* Home */
 
+
+.note {
+  display: none;
+}
+
 @media screen and (max-width: 960px) {
   .bannerImage {
     width: 100%;
@@ -48,7 +53,7 @@
   }
 
   .note {
-    visibility: visible;
+    display: inline;
   }
 }
 
@@ -74,9 +79,6 @@
   box-shadow: 7px 7px 5px grey;
 }
 
-.note {
-  visibility: hidden;
-}
 
 /* Notes */
 
