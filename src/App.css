@@ -31,11 +31,6 @@
 
 /* Home */
 
-.bannerImage {
-  width: 100%;
-  height: auto;
-}
-
 @media screen and (max-width: 960px) {
   .bannerImage {
     width: 100%;
@@ -65,7 +60,27 @@
   box-shadow: 7px 7px 5px grey;
 }
 
-/* Event */
+/* Notes */
+
+.notesCard {
+  text-align: center;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 96%;
+}
+
+.bannerImageNotes {
+  width: 100%;
+  height: 300px;
+}
+
+@media only screen and (max-width: 960px){
+  .bannerImageNotes {
+    width: 100%;
+    height: auto;
+  }
+}
+
 /* Programming */
 /*  Result */
 
@@ -146,10 +161,6 @@ Contributors
 }
 
 @media screen and (max-width: 600px) {
-  /* .profile {
-    margin: 0;
-    padding: 0;
-  } */
   .contributor {
     width: 100%;
   }
