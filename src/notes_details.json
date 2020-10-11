@@ -1,0 +1,324 @@
+[
+    {
+        "id": 1,
+        "sem": "3",
+        "notes": [
+            {
+                "id": 1,
+                "name": "Data Structures and Applicatons",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_VW5aWmRFMWFGMzQ/view" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_Q1JzZmFFLUU2Z1U/view"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_Yjd1d0RCaDByUzA/view"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_MXFGQ0FwVTI4YzA/view"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_MXFGQ0FwVTI4YzA/view"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Analog and Digital Electronics",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_eHNjREV5OEdjYms" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_QlBLR0dDUFlvRm8"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_MHB5NmRDc2xkVU0"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_U1d3OFRYZURsMkk"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_S2U3cTIxcTZGMUk"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Computer Organising",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_bU9VNzVhenZXTWc" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_WkdhR2QzQ0w5UjQ"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_ZGJGOVF5dmdTZXc"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_RF9yMXB0NGF4cWs"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_czdrR3dfSVAyckk"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Software Engineering",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_SDljMDNHOEVlNWc" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_QjlEM0dldldXOHc"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_d18zOTVObjQycE0"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_ekJoOEdHYjdMM1U"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_bW9LOHpzUUdMeXM"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Discrete Mathematical Structures",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_aWsyM210czdsczg" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_RzRjdERpZVo3cW8"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_Qk1vT1hxbVc1MTg"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_cnNFV0NiVUlsS1E"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_X1hscVpSMTUzREU"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "sem": "4",
+        "notes": [
+            {
+                "id": 1,
+                "name": "Data Structures and Applicatons",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_bXVXcUxuNFcwSDQ" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_ZTZmdkViX09SZzQ"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_S1dGc2Z6UmtfaEU"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_emxrb2RTRzE1STg"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_ajhvSEp5WlNtamM"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Operating System",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/file/d/1YgyTLZdy4ovEdRWKOMDGnztR3AEvpd2F" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/file/d/1PecQ6u-hlurCZF7_EPYl39wUihyQs3zF"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/1ihMO6UJWrwJzP0cwmI5q0xTECOUYgL63"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/1aDTA_98PebaDiNYNw8id5q-CuKqMsmfq"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/1kA81b9gDJG88i0IxcqN5jrwro_98Drb2"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Microcontroller and Embedded Systems",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_SkpyRUpqXzFtWjg" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_ODF2a1ZONzUzMlE"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_enBmZlZLNkJLaFU"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_dkZINW9jU2Jvd1k"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_SkVoYXJldWdIcE0"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Object Oriented Conccepts",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_VktNVjlabTFscEE" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_NXhJeTZWOGxGaGM"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_RklYbWVzQlFvdHc"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_eVFmWmJJMTFGMW8"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_Q044bDBMMkRtZmc"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Data Communications",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_UnR5ci1LVUp5Sms" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/open?id=0BzfpGB351Qv_X0w5aHY0dDBRcWc"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_VGw2Z2lJMGY4SU0"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_ekljamNVazhIT00"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_Tk96ME1kdmp4UFU"
+                    }
+                ]
+            }
+        ]
+    }
+]

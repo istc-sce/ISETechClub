@@ -8,6 +8,7 @@ import Notes from "./components/notes.js";
 import Blogs from "./components/blogs.js";
 import Contributors from "./components/contributors.js";
 import contributor_details from "./contributors_details.json";
+import notes_data from "./notes_details.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar } from "react-bootstrap";
 
@@ -40,19 +41,21 @@ function App() {
             <Nav.Link eventKey="3" as={Link} to="/result">
               Result
             </Nav.Link>
-            <Nav.Link eventKey="4" as={Link} to="/contributors">
-              Contributors
+            <Nav.Link eventKey="4" as={Link} to="/team">
+              Team
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
       <Route exact path="/" component={Home} />
-      <Route path="/notes" component={Notes} />
+      <Route path="/notes" 
+        render={(props) => <Notes details={notes_data} {...props} />}      
+      />
       <Route path="/programming" component={Programming} />
       <Route path="/result" component={Result} />
       <Route path="/blogs" component={Blogs} />
       <Route
-        path="/contributors"
+        path="/team"
         render={(props) => <Contributors details={contributor_details} {...props} />}
       />
     </div>
