@@ -64,6 +64,7 @@ function App() {
         path="/team"
         render={(props) => <Contributors details={contributor_details} {...props} />}
       />
+      <p className="note">*NOTE: To contribute in this project, open in a desktop browser*</p>
     </div>
   );
 }
