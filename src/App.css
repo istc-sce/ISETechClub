@@ -27,14 +27,34 @@
     right: auto;
     left: auto;
   }
+
+  .forkLink {
+    visibility: hidden;
+  }
+}
+
+.forkLink {
+  position: absolute;
+  right: 0;
+  top: 50px;
 }
 
 /* Home */
+
+
+.note {
+  display: none;
+}
 
 @media screen and (max-width: 960px) {
   .bannerImage {
     width: 100%;
     height: auto;
+  }
+
+  .note {
+    display: inline;
+    color: red;
   }
 }
 
@@ -60,6 +80,7 @@
   box-shadow: 7px 7px 5px grey;
 }
 
+
 /* Notes */
 
 .notesCard {
@@ -71,7 +92,7 @@
 
 .bannerImageNotes {
   width: 100%;
-  height: 300px;
+  height: 320px;
 }
 
 @media only screen and (max-width: 960px){
@@ -88,12 +109,13 @@
   height: 100%;
 }
 
-.forkLink {
-  position: absolute;
-  right: 0;
-  top: 50px;
-}
+
 /*  Result */
+
+.bannerImageResult {
+  width: 100%;
+  height: 100%;
+}
 
 /* 
 Contributors
