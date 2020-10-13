@@ -59,24 +59,38 @@
       }
     ]
   },
+
   {
     "id": 3,
-    "name": "Arjun CS",
+    "name": "Pranav N",
     "description": [
       {
         "id": "org3-1",
-        "status": "Interned at",
-        "organization": "http://www.tequedlabs.com/",
-        "name": "Tequed Labs"
+        "status": "Lead at",
+        "organization": "https://pranavbharadwaj007.github.io/Codingthorofficial/",
+        "name": "Coding Thor"
       }
     ],
-    "profile": "https://via.placeholder.com/300x350?text=Profile+Picture+300x350",
+    "profile": "https://avatars1.githubusercontent.com/u/55646472?s=400&u=14f72c26eb7087a160e0415a30f183001067c92a&v=4",
     "contact": [
       {
-        "id": "contact1",
+        "id": "contact3-1",
+        "icon": "twitter",
+        "link": "https://twitter.com/PranaV79977"
+      },
+      {
+        "id": "contact3-2",
         "icon": "linkedin",
-        "link": "#"
+        "link": "https://www.linkedin.com/in/pranavbharadwaj007/"
+      },
+      {
+        "id": "contact3-3",
+        "icon": "github",
+        "link": "https://github.com/pranavbharadwaj007"
       }
     ]
   }
+  
 ]
+
+
