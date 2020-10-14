@@ -1,4 +1,5 @@
 /* NavBar */
+
 * {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
@@ -27,7 +28,6 @@
     right: auto;
     left: auto;
   }
-
   .forkLink {
     visibility: hidden;
   }
@@ -41,7 +41,6 @@
 
 /* Home */
 
-
 .note {
   display: none;
 }
@@ -51,7 +50,6 @@
     width: 100%;
     height: auto;
   }
-
   .note {
     display: inline;
     color: red;
@@ -59,15 +57,15 @@
 }
 
 .homeBackground {
-  background-color: white;
+  background: #0e0f11;
 }
 
 .homeCard {
-  background: white !important;
-  color: #000000;
+  background: #191B1F !important;
+  color: #FDFDFD;
   width: 98%;
   height: auto;
-  border: grey 0.5px solid;
+  border: #FDFDFD 0.5px solid;
   opacity: 0.75;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -77,17 +75,16 @@
 }
 
 .homeCard:hover {
-  box-shadow: 7px 7px 5px grey;
+  box-shadow: 7px 7px 5px #FDFDFD;
 }
-
 
 /* Notes */
 
 .notesCard {
   text-align: center;
-    margin-right: 2%;
-    margin-left: 2%;
-    width: 96%;
+  margin-right: 2%;
+  margin-left: 2%;
+  width: 96%;
 }
 
 .bannerImageNotes {
@@ -95,7 +92,7 @@
   height: 320px;
 }
 
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 960px) {
   .bannerImageNotes {
     width: 100%;
     height: auto;
@@ -108,7 +105,6 @@
   width: 100%;
   height: 100%;
 }
-
 
 /*  Result */
 
@@ -159,6 +155,7 @@ Contributors
   font-size: 1.2em;
   font-weight: 500;
 }
+
 .about {
   padding: 90px 0;
   text-align: center;
@@ -167,6 +164,7 @@ Contributors
 .about p {
   display: inline;
 }
+
 .desc {
   text-align: center;
   padding: 3px;
