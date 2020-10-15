@@ -9,6 +9,9 @@ const fontAwesomeStyle = {
 
 let mapDetail = (detail) => {
   return (
+    
+
+
     <div className="contributor" key={detail.id}>
       <img src={detail.profile} alt="profile" />
       <div className="overlay">
@@ -82,12 +85,15 @@ let mapDetail = (detail) => {
         </div>
       </div>
     </div>
+    
   );
 };
 
 export default function Contributors(props) {
   const data = props.details;
   return (
+    
     <div className="profile">{data.map((detail) => mapDetail(detail))}</div>
+   
   );
 }
