@@ -106,12 +106,13 @@
   border: 1px solid black;
   border-radius: 8px;
   padding: 5px;
-  width: 50vw;
+  width: 60vw;
   height: fit-content;
   margin: 10px auto;
 }
 
 .content {
+  padding: 5px;
   margin-left: 16px;
 }
 

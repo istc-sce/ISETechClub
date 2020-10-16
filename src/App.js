@@ -18,6 +18,7 @@ const proxy = "https://cors-anywhere.herokuapp.com/";
 const descPattern = '<meta.*name="description".*content="(.*?)".*>';
 const titlePattern = "<title>(.*?)</title>";
 const iconPattern = '<link.*?rel=".*?icon".*href="(.*?)".*?>';
+ // Have to verify this pattern
 const contentImagePattern = '<meta.*property="og:image".*content="(.*?)".*>';
 const data = [];
 let description, title, icon, contentImage, dataObj;
