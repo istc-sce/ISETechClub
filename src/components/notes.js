@@ -45,7 +45,7 @@ let mapDetail = (detail) => {
 export default function Contributors(props) {
     const data = props.details;
     return (
-        <div className="notes darkMode">
+        <div className="notes">
             <div>
                 <img className="bannerImageNotes" src="https://www.evergreenhealthfoundation.com/wp-content/uploads/2016/02/sticky-note-banner.jpg" alt="Notes" width="100%" height="auto" />
             </div>
@@ -54,3 +54,4 @@ export default function Contributors(props) {
         </div>
     );
   }
+

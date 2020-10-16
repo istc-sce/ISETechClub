@@ -83,6 +83,12 @@
   margin-left: 1%;
 }
 
+.darkMode {
+  background: #0e0f11;
+  color: aliceblue;
+  height: 100vh;
+}
+
 /* .homeCard:hover {
   box-shadow: 7px 7px 5px #FDFDFD;
 } */
@@ -177,6 +183,11 @@
     width: 100%;
     height: auto;
   }
+  /* .darkMode {
+    background: #0e0f11;
+    color: aliceblue;
+    height: 100%;
+  } */
 }
 
 /* Programming */
