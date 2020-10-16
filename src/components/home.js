@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Container, Jumbotron } from 'react-bootstrap';
+import { Jumbotron } from 'react-bootstrap';
 import Teamimg from "./images/team.svg";
 import Vision from "./images/vision.svg";
 import Mission from "./images/mission.svg";
