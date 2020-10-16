@@ -15,7 +15,7 @@ import { Nav, Navbar } from "react-bootstrap";
 function App() {
   return (
     <div>
-      <Navbar bg="light" collapseOnSelect={true} varient="light" expand="lg">
+      <Navbar bg="dark" collapseOnSelect={true} varient="dark" expand="lg">
         <Navbar.Brand as={Link} to="/">
           <img
             src={process.env.PUBLIC_URL + "/favicon.ico"}
