@@ -20,7 +20,13 @@ let mapDetail = (detail) => {
             {detail.description.map((orgDetails) => (
               <div key={orgDetails.id}>
                 <p>{orgDetails.status} </p>
-                <a href={orgDetails.organization} target="_blank" rel="noopener noreferrer">{orgDetails.name}</a>
+                <a
+                  href={orgDetails.organization}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {orgDetails.name}
+                </a>
               </div>
             ))}
           </div>
@@ -77,7 +83,7 @@ let mapDetail = (detail) => {
   );
 };
 
-export default function Contributors(props) {
+export default function Teams(props) {
   const data = props.details;
   return (
     <div className="profile">{data.map((detail) => mapDetail(detail))}</div>

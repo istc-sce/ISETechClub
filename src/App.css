@@ -1,6 +1,6 @@
 /* NavBar */
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -41,7 +41,6 @@
 
 /* Home */
 
-
 .note {
   display: none;
 }
@@ -80,14 +79,13 @@
   box-shadow: 7px 7px 5px grey;
 }
 
-
 /* Notes */
 
 .notesCard {
   text-align: center;
-    margin-right: 2%;
-    margin-left: 2%;
-    width: 96%;
+  margin-right: 2%;
+  margin-left: 2%;
+  width: 96%;
 }
 
 .bannerImageNotes {
@@ -95,11 +93,32 @@
   height: 320px;
 }
 
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 960px) {
   .bannerImageNotes {
     width: 100%;
     height: auto;
   }
+}
+
+/* Blogs */
+.article {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5px;
+  width: 50vw;
+  height: fit-content;
+  margin: 10px auto;
+}
+
+.content {
+  margin-left: 16px;
+}
+
+.content-image {
+  width: 30%;
+  height: 180px;
+  object-fit: cover;
 }
 
 /* Programming */
@@ -109,7 +128,6 @@
   height: 100%;
 }
 
-
 /*  Result */
 
 .bannerImageResult {
@@ -118,7 +136,7 @@
 }
 
 /* 
-Contributors
+Teams
 */
 
 .profile {
