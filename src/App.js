@@ -53,20 +53,6 @@ blogs_details.forEach(getContent);
 function App() {
   return (
     <div>
-      <a
-        href="https://github.com/niranjanhegde144/ISETechClub"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="forkLink"
-      >
-        <img
-          border="0"
-          alt="Github"
-          width="150"
-          height="150"
-          src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149"
-        />
-      </a>
       <Navbar bg="light" collapseOnSelect={true} varient="light" expand="lg">
         <Navbar.Brand as={Link} to="/">
           <img
@@ -106,6 +92,7 @@ function App() {
       />
       <Route path="/programming" component={Programming} />
       <Route path="/result" component={Result} />
+      {/* Need to pass the props when the data has been completely read. Data read should be either made synchronous or have to think about other method. */}
       <Route
         path="/blogs"
         render={(props) => <Blogs data={data} {...props} />}
@@ -114,9 +101,6 @@ function App() {
         path="/team"
         render={(props) => <Teams details={contributor_details} {...props} />}
       />
-      <p className="note">
-        *NOTE: To contribute in this project, open in a desktop browser*
-      </p>
     </div>
   );
 }

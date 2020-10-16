@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const fontAwesomeStyle = {
   color: "black",
@@ -61,6 +61,14 @@ let mapDetail = (detail) => {
                         <FontAwesomeIcon
                           style={fontAwesomeStyle}
                           icon={faGithub}
+                          size="lg"
+                        />
+                      );
+                    case "twitter":
+                      return (
+                        <FontAwesomeIcon
+                          style={fontAwesomeStyle}
+                          icon={faTwitter}
                           size="lg"
                         />
                       );

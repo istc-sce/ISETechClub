@@ -1,4 +1,8 @@
 import React from "react";
+/*
+'''
+This is the template for the preview link of the blogs
+'''
 
 let articleMap = (dataObj) => {
   return (
@@ -29,6 +33,7 @@ let articleMap = (dataObj) => {
     </div>
   );
 };
+*/
 
 export default function Blogs(props) {
   const data = props.data;

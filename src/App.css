@@ -36,7 +36,7 @@
 .forkLink {
   position: absolute;
   right: 0;
-  top: 50px;
+  top: 55px;
 }
 
 /* Home */
@@ -161,7 +161,7 @@ Teams
   backface-visibility: hidden;
   opacity: 1;
   height: 100%;
-  transition: 0.6s ease-out;
+  transition: 0.3s ease-out;
 }
 
 .overlay {
@@ -204,7 +204,7 @@ Teams
 .contributor:hover img {
   opacity: 0.5;
   filter: blur(4px);
-  transition: 0.6s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .contributor:hover .overlay {
