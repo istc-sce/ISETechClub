@@ -1,6 +1,5 @@
 /* NavBar */
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, .8) !important;
 }
@@ -88,10 +87,6 @@
   color: aliceblue;
   height: 100vh;
 }
-
-/* .homeCard:hover {
-  box-shadow: 7px 7px 5px #FDFDFD;
-} */
 
 .section {
   padding: 20px;
@@ -183,11 +178,6 @@
     width: 100%;
     height: auto;
   }
-  /* .darkMode {
-    background: #0e0f11;
-    color: aliceblue;
-    height: 100%;
-  } */
 }
 
 /* Programming */
