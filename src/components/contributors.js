@@ -88,10 +88,10 @@ let mapDetail = (detail) => {
 export default function Contributors(props) {
   const data = props.details;
   return (
-   <div className="darkMode">
+   
 
     <div className="profile">{data.map((detail) => mapDetail(detail))}</div>
-   </div>
+  
  
   );
 }
