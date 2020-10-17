@@ -11,14 +11,14 @@ import contributor_details from "./contributors_details.json";
 import notes_data from "./notes_details.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar } from "react-bootstrap";
-
+import ShortIcon from "./components/images/shortIcon.png";
 function App() {
   return (
     <div>
-      <Navbar bg="light" collapseOnSelect={true} varient="light" expand="lg">
+      <Navbar bg="dark" collapseOnSelect={true} varient="dark" expand="lg">
         <Navbar.Brand as={Link} to="/">
           <img
-            src={process.env.PUBLIC_URL + "/favicon.ico"}
+            src={ShortIcon}
             alt="ISE Tech"
             className="homeIcon"
           />
