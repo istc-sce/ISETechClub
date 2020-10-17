@@ -1,10 +1,345 @@
 [
     {
         "id": 1,
+        "sem": "Physics Cycle",
+        "notes": [
+            {
+                "id": 1,
+                "name": "Calculus and Linear Algebra[M-1]",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/file/d/1f_WzKbrCfLUuo-48JA6hra2VPxjqcb74/view" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/file/d/1dz2dooc9aBVt_qVa5-Rv7GkjFM0WmwNI/view"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/1VhRtK8nfVKAyTLdU3wZK7Rl_5XYnnjW_/view"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/1D0kyRzuemAUhmz0WTJ_GxmvDcU7pymCz/view"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/1kcy5uZrG8xs35mN9BAmQ4wqyxi_DpFsY/view"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Engineering Physics",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/file/d/1JUCPStebp34T_pWjjGQuVJCQfgLGiYzM/view" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/file/d/1l_sRPp9n0YiFVNE5zG7Vs4b41AM-w4Rv/view"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/14QTe3hb43hKVK622eeLE5XXKsMzZT9WK/view"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/19IC6AxTBxPm2bQhlJ8vy59avRC9bubWu/view"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/19DK7XqUoyUNBqrI5juJKTZ0J48mtOW0y/view"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Basic Electrical Engineering",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/file/d/1sNeHC8aBcLNnHa63Zan8ox44TtU7SW6K/view" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/file/d/1ArgoLTaA1uf-YZfQ1qdm7LWtx2Bwe0qu/view"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/13skZQjuIO1VqAdfz_Il5I3JSiXv4Uhd1/view"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/1JebmK8Q4F53PnCfzCJ9Igw1sD3GES3wN/view"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/1X89VTTHPFpC_8xeCOBomKW7GQdN6XWqj/view"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Elements of Civil Engineering and Mechanics",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/file/d/13ovLF3NN-tQAZsFSi176-rkZt-yGnm5t/view" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/file/d/1hU12XMHnSbpogPsaT4q0GGsbPQJ1tMoC/view"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/1_Qqnh1YCCsPQq2isR7hJ-DUlscApXN_8/view"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/1JCBmxQQn9uaZaKmtNJRk4qVkTLIs4AJp/view"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/1TwrmHFQETs9SbiWfb02K6m_frGIOcpdi/view"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Engineering Graphics",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Complete Notes",
+                        "link": "https://mrcet.com/downloads/hs/Engineering%20Graphics%20Manual%20final.pdf" 
+                    }
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "sem": "Chemistry Cycle",
+        "notes": [
+            {
+                "id": 1,
+                "name": "Advanced Calculus And Numerical Methods[M-2]",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_LWxSR2hCamRuelE/view" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_Q2huWGk3YU96OVU/view"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_aGQzY2pWWW9FaWc/view"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_Ui00SDQwRGJQTlU/view"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_T2xic1RuTlJhV2c/view"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Engineering Chemistry",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/file/d/12sw6X5BbF-OCKAlSIVmyjygxAYSLSnBX/view" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/file/d/1dQcwnT9ZIV6vdzsYH6NX_0FOadrnrjyU/view"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/1BOkE2hwHovs-7CL8m7hBpTKNXMfL4bDg/view"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/1ljNkNn-XlaLuWtImcbHj78X1deUKCI8C/view"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/1tcQrUO6w-UGu27pkmR_O6mDTQezgBQSf/view"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "C Programming for Problem Solving",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/file/d/1MuA2C6BT-rq53IWEiE_OIYie8IVHun7F/view" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/file/d/1W9fuAgzQ9OqXSEDBV9CeV5tTXuDj9JVx/view"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/16J_HW1icczItTm-8IyCGFxn3-TXHX18l/view"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/15rP5o6PO2qnvo8OLqbhlgt4hvX7DEeDr/view"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/1xgKJoJoYoblHA-1IV8epVWpW6yoVRKD7/view"
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Basic Electronics",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/file/d/1DxjkvkviSv-mzPA1kflPnMJrDqltr9Mx/view" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/file/d/1CesXJdEB9H63mC3XYB0_DhlaCM_jfwTu/view"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/1ovYtAh1yUyRcJDLxqeYfbuuit_v4_pgx/view"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/1QW4u0z4PXgGkSR9bao8aN-3_9iVWaKsW/view"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/1LpLARQYxmplTN_QO8Rz3AwTaty75D1i_/view"
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Elements of Mechanical Engineering",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/file/d/1ygb8cxMYnPQNuPiY6CFQDl1RGeclbJk_/view" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/file/d/1a92zAUybof9vtoQVKjBUvHyqGpYVdD7h/view"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/1BxTPL5LEbCxdGIx-IYvQRHZ81lI_8xVv/view"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/19tT3-vKwR_HoCWn8-UY29hJuEUMei4VT/view"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/1GV1l0vmBfw1cQOET7bwd2yDeky_rBTm1/view"
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "id": 2,
         "sem": "3",
         "notes": [
             {
                 "id": 1,
+                "name": "TRANSFORM CALCULUS, FOURIER SERIES AND NUMERICAL TECHNIQUES[M-3] ",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_eU9xUEgyR2NiT3M/view" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_Y1NORjdabEIyLTQ/view"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_X21XNjllU1ZVUjA/view"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_ZG0wbU9pNXBvLUE/view"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/0BzfpGB351Qv_NXNRNGdIWlQ3aFU/view"
+                    }
+                ]
+            },
+            {
+                "id": 2,
                 "name": "Data Structures and Applicatons",
                 "module": [
                     {
@@ -35,7 +370,7 @@
                 ]
             },
             {
-                "id": 2,
+                "id": 3,
                 "name": "Analog and Digital Electronics",
                 "module": [
                     {
@@ -66,7 +401,7 @@
                 ]
             },
             {
-                "id": 3,
+                "id": 4,
                 "name": "Computer Organising",
                 "module": [
                     {
@@ -97,7 +432,7 @@
                 ]
             },
             {
-                "id": 4,
+                "id": 5,
                 "name": "Software Engineering",
                 "module": [
                     {
@@ -128,7 +463,7 @@
                 ]
             },
             {
-                "id": 5,
+                "id": 6,
                 "name": "Discrete Mathematical Structures",
                 "module": [
                     {
@@ -161,11 +496,42 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "sem": "4",
         "notes": [
             {
                 "id": 1,
+                "name": "COMPLEX ANALYSIS, PROBABILITY AND STATISTICAL METHODS[M-4]",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "http://www.vtuupdates.in/wp-content/uploads/cse/4th-sem/15cs41/m1.pdf" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "http://www.vtuupdates.in/wp-content/uploads/cse/4th-sem/15cs41/m2.pdf"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "http://www.vtuupdates.in/wp-content/uploads/cse/4th-sem/15cs41/m3.pdf"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "http://www.vtuupdates.in/wp-content/uploads/cse/4th-sem/15cs41/m4.pdf"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/1az15WtjkcM-o0zUEU-HaBqBr7-6tprhN/view"
+                    }
+                ]
+            },
+            {
+                "id": 2,
                 "name": "Design and Analysis of Algorithms",
                 "module": [
                     {
@@ -196,7 +562,7 @@
                 ]
             },
             {
-                "id": 2,
+                "id": 3,
                 "name": "Operating System",
                 "module": [
                     {
@@ -227,7 +593,7 @@
                 ]
             },
             {
-                "id": 3,
+                "id": 4,
                 "name": "Microcontroller and Embedded Systems",
                 "module": [
                     {
@@ -258,7 +624,7 @@
                 ]
             },
             {
-                "id": 4,
+                "id": 5,
                 "name": "Object Oriented Conccepts",
                 "module": [
                     {
@@ -289,7 +655,7 @@
                 ]
             },
             {
-                "id": 5,
+                "id": 6,
                 "name": "Data Communications",
                 "module": [
                     {
@@ -322,7 +688,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "sem": "5",
         "notes": [
             {
@@ -484,7 +850,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "sem": "6",
         "notes": [
             {
@@ -774,7 +1140,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "sem": "7",
         "notes": [
             {
@@ -1034,11 +1400,42 @@
                         "link": "https://docs.google.com/viewerng/viewer?url=https://hemanthrajhemu.github.io/CSE6/DOWNLOAD/17SCHEME/PE/52_SADP/SADP_T1_M5.pdf"
                     }
                 ]
+            },
+            {
+                "id": 10,
+                "name": "Storage area Networks",
+                "module": [
+                    {
+                        "id": "mod1",
+                        "title": "Module 1",
+                        "link": "https://drive.google.com/file/d/1Gz6l5fn3ERU5m6NRwMOK56NsIpCo_FV7/view" 
+                    },
+                    {
+                        "id": "mod2",
+                        "title": "Module 2",
+                        "link": "https://drive.google.com/file/d/1MLe2dNjKorQvEslmj6o8IT8wrAARmdcE/view"
+                    },
+                    {
+                        "id": "mod3",
+                        "title": "Module 3",
+                        "link": "https://drive.google.com/file/d/1CU96hQnG4ZEgMo20a-D3Q5ngaXfvgMtb/view"
+                    },
+                    {
+                        "id": "mod4",
+                        "title": "Module 4",
+                        "link": "https://drive.google.com/file/d/18RoFx50Sjw8BqzAyMsXvNasFjkB8RABd/view"
+                    },
+                    {
+                        "id": "mod5",
+                        "title": "Module 5",
+                        "link": "https://drive.google.com/file/d/1qNOY69xF82IuWAHxzax-2cZJyOxlOro8/view"
+                    }
+                ]
             }
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "sem": "8",
         "notes": [
             {
@@ -1105,37 +1502,6 @@
             },
             {
                 "id": 3,
-                "name": "Storage area Networks",
-                "module": [
-                    {
-                        "id": "mod1",
-                        "title": "Module 1",
-                        "link": "https://drive.google.com/file/d/1Gz6l5fn3ERU5m6NRwMOK56NsIpCo_FV7/view" 
-                    },
-                    {
-                        "id": "mod2",
-                        "title": "Module 2",
-                        "link": "https://drive.google.com/file/d/1MLe2dNjKorQvEslmj6o8IT8wrAARmdcE/view"
-                    },
-                    {
-                        "id": "mod3",
-                        "title": "Module 3",
-                        "link": "https://drive.google.com/file/d/1CU96hQnG4ZEgMo20a-D3Q5ngaXfvgMtb/view"
-                    },
-                    {
-                        "id": "mod4",
-                        "title": "Module 4",
-                        "link": "https://drive.google.com/file/d/18RoFx50Sjw8BqzAyMsXvNasFjkB8RABd/view"
-                    },
-                    {
-                        "id": "mod5",
-                        "title": "Module 5",
-                        "link": "https://drive.google.com/file/d/1qNOY69xF82IuWAHxzax-2cZJyOxlOro8/view"
-                    }
-                ]
-            },
-            {
-                "id": 4,
                 "name": "System Modelling And Simulation",
                 "module": [
                     {
