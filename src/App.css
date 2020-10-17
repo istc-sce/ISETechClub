@@ -230,7 +230,7 @@ Contributors
   height: 100%;
   width: 100%;
   opacity: 0;
-  color: black;
+  color: rgb(255, 254, 254);
   font-size: 1.2em;
   font-weight: 500;
 }

@@ -4,7 +4,7 @@ import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const fontAwesomeStyle = {
-  color: "black",
+  color: "white",
 };
 
 let mapDetail = (detail) => {
@@ -88,10 +88,6 @@ let mapDetail = (detail) => {
 export default function Contributors(props) {
   const data = props.details;
   return (
-   
-
     <div className="profile">{data.map((detail) => mapDetail(detail))}</div>
-  
- 
   );
 }
