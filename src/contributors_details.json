@@ -89,6 +89,36 @@
         "link": "https://github.com/pranavbharadwaj007"
       }
     ]
+  },
+  {
+    "id": 4,
+    "name": "Vivek Singh Kushwaha ",
+    "description": [
+      {
+        "id": "org4-1",
+        "status": "Marketing Analyst intern at",
+        "organization": "https://www.marketgad.com/",
+        "name": "MarketGad"
+      }
+    ],
+    "profile": "https://media-exp1.licdn.com/dms/image/C4E03AQFOY_Tze8VQYw/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=dOMZDFbpE2RB29LzmUlCB3W07ciO5poXXWr3H7P3dxA",
+    "contact": [
+      {
+        "id": "contact4-1",
+        "icon": "desktop",
+        "link": "https://www.quora.com/profile/Vivek-Singh-3656?ch=10&share=26165be1&srid=5AJXi"
+      },
+      {
+        "id": "contact4-2",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/viveksinghkushwaha"
+      },
+      {
+        "id": "contact4-3",
+        "icon": "twitter",
+        "link": "https://twitter.com/engineerhoonmei?s=09"
+      }
+    ]
   }
   
 ]
