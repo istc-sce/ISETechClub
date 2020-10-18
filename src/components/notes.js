@@ -11,7 +11,7 @@ let mapDetail = (detail) => {
                 <Card key={subs.id}>
                     <Accordion className="notes">
                         <Card.Header>
-                            <Accordion.Toggle as={Button} variant="link" eventKey="0" className="sectiontag text1">
+                            <Accordion.Toggle as={Button} variant="link" eventKey="0" className="sectiontag text2">
                                 {subs.name}
                             </Accordion.Toggle>
                         </Card.Header>
