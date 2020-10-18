@@ -156,22 +156,42 @@
 /* Notes */
 
 .notesCard {
+  background: #191B1F !important;
+  color: #FDFDFD;
+  width: 98%;
+  height: auto;
+  border: #FDFDFD 0.5px solid;
+  opacity: 0.75;
   text-align: center;
-  margin-right: 2%;
-  margin-left: 2%;
-  width: 96%;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-right: 1%;
+  margin-left: 1%;
 }
 
-.bannerImageNotes {
-  width: 100%;
-  height: 320px;
+.notesHeader {
+  background: #191B1F !important;
+  color: #FDFDFD;
+  width: 98%;
+  height: auto;
+  border: #FDFDFD 0.5px solid;
+  opacity: 0.75;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-right: 1%;
+  margin-left: 1%;
 }
 
-@media only screen and (max-width: 960px) {
-  .bannerImageNotes {
-    width: 100%;
-    height: auto;
-  }
+.notes {
+  background: #191B1F !important;
+  color: #FDFDFD;
+  height: auto;
+  opacity: 0.75;
+  text-align: center;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
 }
 
 /* Programming */
