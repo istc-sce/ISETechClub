@@ -7,6 +7,7 @@ import Result from "./components/result.js";
 import Notes from "./components/notes.js";
 import Blogs from "./components/blogs.js";
 import Contributors from "./components/contributors.js";
+import Event from "./components/events.js";
 import contributor_details from "./contributors_details.json";
 import notes_data from "./notes_details.json";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -32,6 +33,9 @@ function App() {
             <Nav.Link eventKey="5" as={Link} to="/notes">
               Notes
             </Nav.Link>
+            <Nav.Link eventKey="6" as={Link} to="/events">
+              Events
+            </Nav.Link>
             <Nav.Link eventKey="1" as={Link} to="/blogs">
               Blogs
             </Nav.Link>
@@ -54,6 +58,7 @@ function App() {
       <Route path="/programming" component={Programming} />
       <Route path="/result" component={Result} />
       <Route path="/blogs" component={Blogs} />
+      <Route path="/events" component={Event} />
       <Route
         path="/team"
         render={(props) => <Contributors details={contributor_details} {...props} />}
