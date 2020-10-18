@@ -119,6 +119,34 @@
         "link": "https://twitter.com/engineerhoonmei?s=09"
       }
     ]
+  },
+  {
+    "id": 5,
+    "name": "MAHADEVI N C",
+    "description": [
+      {
+        "id": "org5-1",
+        "status": "Coding Enthusiast"
+      }
+    ],
+    "profile": "https://avatars2.githubusercontent.com/u/72809868?s=400&u=510f2f375b361075ef4074df20195c406e87b51f&v=4",
+    "contact": [
+      {
+        "id": "contact5-1",
+        "icon": "desktop",
+        "link": "https://www.hackerrank.com/Mahadevi_N_C"
+      },
+      {
+        "id": "contact5-2",
+        "icon": "github",
+        "link": "https://github.com/Mahadevinc"
+      },
+      {
+        "id": "contact5-3",
+        "icon": "linkedin",
+        "link": "https://www.linkedin.com/in/mahadevi-n-c-865a061a2"
+      }
+    ]
   }
   
 ]
