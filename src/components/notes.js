@@ -4,9 +4,29 @@ import { Accordion, Card, Button, Jumbotron } from 'react-bootstrap';
 let mapDetail = (detail) => {
     return (
         <Jumbotron className="notesCard" key={detail.id}>
-            <p className="sectiontag text1">
-                Semester - {detail.sem}
-            </p>
+            
+                {(() => {
+                  switch (detail.sem) {
+                    case "Chemistry Cycle":
+                      return (
+                        <p className="sectiontag text1">
+                            Chemistry Cycle
+                        </p>
+                      );
+                    case "Physics Cycle":
+                      return (
+                        <p className="sectiontag text1">
+                            Physics Cycle
+                        </p>
+                      );
+                    default:
+                      return (
+                        <p className="sectiontag text1">
+                            Semester - {detail.sem}
+                        </p>
+                      );
+                  }
+                })()}
             {detail.notes.map((subs) => (
                 <Card key={subs.id}>
                     <Accordion className="notes">
