@@ -1,57 +1,69 @@
 import React from 'react';
-import { Accordion, Card, Button } from 'react-bootstrap';
+import { Accordion, Card, Button, Jumbotron } from 'react-bootstrap';
 
 let mapDetail = (detail) => {
     return (
-        <div className="notes" key={detail.id}>
-            <br/>
-            <Accordion className="notesCard">
-                <Card>
-                    <Card.Header>
-                    <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                        Semester - {detail.sem}
-                    </Accordion.Toggle>
-                    </Card.Header>
-                    <Accordion.Collapse eventKey="0">
-                    <Card.Body>
-                        {detail.notes.map((subs) => (
-                        <Card key={subs.id}>
-                            <Accordion>
-                                <Card.Header>
-                                <Accordion.Toggle as={Button} variant="link" eventKey="0">
-                                    {subs.name}
-                                </Accordion.Toggle>
-                                </Card.Header>
-                                {subs.module.map((mod) =>(
-                                    <Accordion.Collapse eventKey="0">
-                                        <Card.Body>
-                                            <a href={mod.link} target="_blank" rel="noopener noreferrer">{mod.title}</a>
-                                        </Card.Body>
-                                    </Accordion.Collapse>
-                                ))}
-                            </Accordion>
-                        </Card>
+        <Jumbotron className="notesCard" key={detail.id}>
+            
+                {(() => {
+                  switch (detail.sem) {
+                    case "Chemistry Cycle":
+                      return (
+                        <p className="sectiontag text1">
+                            Chemistry Cycle
+                        </p>
+                      );
+                    case "Physics Cycle":
+                      return (
+                        <p className="sectiontag text1">
+                            Physics Cycle
+                        </p>
+                      );
+                    default:
+                      return (
+                        <p className="sectiontag text1">
+                            Semester - {detail.sem}
+                        </p>
+                      );
+                  }
+                })()}
+            {detail.notes.map((subs) => (
+                <Card key={subs.id}>
+                    <Accordion className="notes">
+                        <Card.Header>
+                            <Accordion.Toggle as={Button} variant="link" eventKey="0" className="sectiontag text2">
+                                {subs.name}
+                            </Accordion.Toggle>
+                        </Card.Header>
+                        {subs.module.map((mod) => (
+                            <Accordion.Collapse eventKey="0">
+                                <Card.Body>
+                                    <a href={mod.link} target="_blank" rel="noopener noreferrer">{mod.title}</a>
+                                </Card.Body>
+                            </Accordion.Collapse>
                         ))}
-                    </Card.Body>
-                    </Accordion.Collapse>
+                    </Accordion>
                 </Card>
-            </Accordion>
-
-        </div>
+            ))}
+        </Jumbotron>
     )
 }
 
 
-export default function Contributors(props) {
+export default function Notes(props) {
     const data = props.details;
     return (
-        <div className="notes ">
-            <div>
-                <img className="bannerImageNotes" src="https://www.evergreenhealthfoundation.com/wp-content/uploads/2016/02/sticky-note-banner.jpg" alt="Notes" width="100%" height="auto" />
-            </div>
-            {data.map((detail) => mapDetail(detail))}
+        <div>
             <br />
+            <Jumbotron className="notesHeader">
+                <p className="sectiontag text-big text1">
+                    Information Science Engineering Notes
+            </p>
+            </Jumbotron>
+            <div>
+                {data.map((detail) => mapDetail(detail))}
+            </div>
         </div>
     );
-  }
+}
 
