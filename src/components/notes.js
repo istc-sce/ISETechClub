@@ -36,7 +36,7 @@ export default function Contributors(props) {
         <div>
             <br />
             <Jumbotron className="notesHeader">
-                <p className="sectiontag text1">
+                <p className="sectiontag text-big text1">
                     Information Science Engineering Notes
             </p>
             </Jumbotron>
