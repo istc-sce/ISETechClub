@@ -4,7 +4,7 @@ import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const fontAwesomeStyle = {
-  color: "black",
+  color: "white",
 };
 
 let mapDetail = (detail) => {

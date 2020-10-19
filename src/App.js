@@ -7,10 +7,12 @@ import Result from "./components/result.js";
 import Notes from "./components/notes.js";
 import Blogs from "./components/blogs.js";
 import Teams from "./components/teams.js";
+import Event from "./components/events.js";
 import contributor_details from "./contributors_details.json";
 import blogs_details from "./blog_links.json";
 import notes_data from "./notes_details.json";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ShortIcon from "./components/images/shortIcon.png";
 import { Nav, Navbar } from "react-bootstrap";
 
 // Fetching the necessary data for the preview link.
@@ -18,7 +20,7 @@ const proxy = "https://cors-anywhere.herokuapp.com/";
 const descPattern = '<meta.*name="description".*content="(.*?)".*>';
 const titlePattern = "<title>(.*?)</title>";
 const iconPattern = '<link.*?rel=".*?icon".*href="(.*?)".*?>';
- // Have to verify this pattern
+// Have to verify this pattern
 const contentImagePattern = '<meta.*property="og:image".*content="(.*?)".*>';
 const data = [];
 let description, title, icon, contentImage, dataObj;
@@ -50,17 +52,12 @@ const getContent = async (url) => {
   }
 };
 blogs_details.forEach(getContent);
-
 function App() {
   return (
     <div>
-      <Navbar bg="light" collapseOnSelect={true} varient="light" expand="lg">
+      <Navbar bg="dark" collapseOnSelect={true} varient="dark" expand="lg">
         <Navbar.Brand as={Link} to="/">
-          <img
-            src={process.env.PUBLIC_URL + "/favicon.ico"}
-            alt="ISE Tech"
-            className="homeIcon"
-          />
+          <img src={ShortIcon} alt="ISE Tech" className="homeIcon" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse
@@ -70,6 +67,9 @@ function App() {
           <Nav>
             <Nav.Link eventKey="5" as={Link} to="/notes">
               Notes
+            </Nav.Link>
+            <Nav.Link eventKey="6" as={Link} to="/events">
+              Events
             </Nav.Link>
             <Nav.Link eventKey="1" as={Link} to="/blogs">
               Blogs
@@ -98,6 +98,7 @@ function App() {
         path="/blogs"
         render={(props) => <Blogs data={data} {...props} />}
       />
+      <Route path="/events" component={Event} />
       <Route
         path="/team"
         render={(props) => <Teams details={contributor_details} {...props} />}
