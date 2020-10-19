@@ -1,7 +1,7 @@
 /* NavBar */
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, .8) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -9,7 +9,7 @@
 }
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -69,11 +69,11 @@
 }
 
 .homeCard {
-  background: #191B1F !important;
-  color: #FDFDFD;
+  background: #191b1f !important;
+  color: #fdfdfd;
   width: 98%;
   height: auto;
-  border: #FDFDFD 0.5px solid;
+  border: #fdfdfd 0.5px solid;
   opacity: 0.75;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -156,11 +156,11 @@
 /* Notes */
 
 .notesCard {
-  background: #191B1F !important;
-  color: #FDFDFD;
+  background: #191b1f !important;
+  color: #fdfdfd;
   width: 98%;
   height: auto;
-  border: #FDFDFD 0.5px solid;
+  border: #fdfdfd 0.5px solid;
   opacity: 0.75;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -170,11 +170,11 @@
 }
 
 .notesHeader {
-  background: #191B1F !important;
-  color: #FDFDFD;
+  background: #191b1f !important;
+  color: #fdfdfd;
   width: 98%;
   height: auto;
-  border: #FDFDFD 0.5px solid;
+  border: #fdfdfd 0.5px solid;
   opacity: 0.75;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -184,12 +184,35 @@
 }
 
 .notes {
-  background: #191B1F !important;
-  color: #FDFDFD;
+  background: #191b1f !important;
+  color: #fdfdfd;
   height: auto;
   opacity: 0.75;
   text-align: center;
   display: inline-block;
+}
+
+/* Blogs */
+.article {
+  display: flex;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  padding: 5px;
+  width: 60vw;
+  color: white;
+  height: fit-content;
+  margin: 10px auto;
+}
+
+.content {
+  padding: 5px;
+  margin-left: 16px;
+}
+
+.content-image {
+  width: 30%;
+  height: 180px;
+  object-fit: cover;
 }
 
 /* Programming */
@@ -207,11 +230,11 @@
 }
 
 .results {
-  color: #FDFDFD;
+  color: #fdfdfd;
 }
 
 /* 
-Contributors
+Teams
 */
 
 .profile {
