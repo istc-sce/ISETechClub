@@ -50,7 +50,7 @@ let mapDetail = (detail) => {
 }
 
 
-export default function Contributors(props) {
+export default function Notes(props) {
     const data = props.details;
     return (
         <div>
