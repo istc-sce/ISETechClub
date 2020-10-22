@@ -130,6 +130,40 @@
     ]
   },
   {
+    "id": 4,
+    "team": "App Development Team",
+    "members": [
+      {
+        "id": 1,
+        "name": "Ashutosh",
+        "description": [
+          {
+            "id": "org6-1",
+            "status": "Application Developer"
+          }
+        ],
+        "profile": "https://avatars1.githubusercontent.com/u/69085818?s=460&u=a1345469f63ed7a0bf06716b852b0b60b64ae0f1&v=4",
+        "contact": [
+          {
+            "id": "contact6-1",
+            "icon": "google-play",
+            "link": "https://play.google.com/store/apps/dev?id=8412728833459687927"
+          },
+          {
+            "id": "contact6-2",
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/ashutosh-3919351b3/"
+          },
+          {
+            "id": "contact6-3",
+            "icon": "github",
+            "link": "https://github.com/xyther14"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": 3,
     "team": "Mangement Team",
     "members": [
