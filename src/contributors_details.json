@@ -1,154 +1,168 @@
 [
   {
     "id": 1,
-    "name": "Akram Kazmi",
-    "description": [
+    "team": "Core Team",
+    "members": [
       {
-        "id": "org1-1",
-        "status": "Working at",
-        "organization": "https://niki.ai/",
-        "name": "Niki.ai"
-      }
-    ],
-    "profile": "https://avatars3.githubusercontent.com/u/40989391?s=460&u=3d8294720a7b1e086d0ca4d276060b3e5eb1adee&v=4",
-    "contact": [
-      {
-        "id": "contact1-1",
-        "icon": "desktop",
-        "link": "https://akram-portfolio.netlify.app/"
+        "id": 1,
+        "name": " Md. Akram Kazmi",
+        "description": [
+          {
+            "id": "org1-1",
+            "status": "Working at",
+            "organization": "https://niki.ai/",
+            "name": "Niki.ai"
+          }
+        ],
+        "profile": "https://avatars3.githubusercontent.com/u/40989391?s=460&u=3d8294720a7b1e086d0ca4d276060b3e5eb1adee&v=4",
+        "contact": [
+          {
+            "id": "contact1-1",
+            "icon": "desktop",
+            "link": "https://akram-portfolio.netlify.app/"
+          },
+          {
+            "id": "contact1-2",
+            "icon": "github",
+            "link": "https://github.com/akramkazmi71"
+          },
+          {
+            "id": "contact1-3",
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/akramkazmi71/"
+          }
+        ]
       },
       {
-        "id": "contact1-2",
-        "icon": "github",
-        "link": "https://github.com/akramkazmi71"
-      },
-      {
-        "id": "contact1-3",
-        "icon": "linkedin",
-        "link": "https://www.linkedin.com/in/akramkazmi71/"
+        "id": 2,
+        "name": "Niranjan Hegde",
+        "description": [
+          {
+            "id": "org2-1",
+            "status": "Interned in",
+            "organization": "https://www.nouveau-labs.com/",
+            "name": "Nouveau Labs"
+          }
+        ],
+        "profile": "https://avatars3.githubusercontent.com/u/28218435?s=400&amp;u=ffb9101bbbcb7871980f9a98186342ec2742d62a",
+        "contact": [
+          {
+            "id": "contact2-1",
+            "icon": "desktop",
+            "link": "https://niranjanhegde144.github.io/portfolio/"
+          },
+          {
+            "id": "contact2-2",
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/hegdeniranjan/"
+          },
+          {
+            "id": "contact2-3",
+            "icon": "github",
+            "link": "https://github.com/niranjanhegde144"
+          }
+        ]
       }
     ]
   },
   {
     "id": 2,
-    "name": "Niranjan Hegde",
-    "description": [
+    "team": "Web Development Team",
+    "members": [
       {
-        "id": "org2-1",
-        "status": "Interned in",
-        "organization": "https://www.nouveau-labs.com/",
-        "name": "Nouveau Labs"
-      }
-    ],
-    "profile": "https://avatars3.githubusercontent.com/u/28218435?s=400&amp;u=ffb9101bbbcb7871980f9a98186342ec2742d62a",
-    "contact": [
-      {
-        "id": "contact2-1",
-        "icon": "desktop",
-        "link": "https://niranjanhegde144.github.io/portfolio/"
+        "id": 1,
+        "name": "Pranav N",
+        "description": [
+          {
+            "id": "org3-1",
+            "status": "Lead at",
+            "organization": "https://pranavbharadwaj007.github.io/Codingthorofficial/",
+            "name": "Coding Thor"
+          }
+        ],
+        "profile": "https://avatars1.githubusercontent.com/u/55646472?s=400&u=14f72c26eb7087a160e0415a30f183001067c92a&v=4",
+        "contact": [
+          {
+            "id": "contact3-1",
+            "icon": "twitter",
+            "link": "https://twitter.com/PranaV79977"
+          },
+          {
+            "id": "contact3-2",
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/pranavbharadwaj007/"
+          },
+          {
+            "id": "contact3-3",
+            "icon": "github",
+            "link": "https://github.com/pranavbharadwaj007"
+          }
+        ]
       },
       {
-        "id": "contact2-2",
-        "icon": "linkedin",
-        "link": "https://www.linkedin.com/in/hegdeniranjan/"
-      },
-      {
-        "id": "contact2-3",
-        "icon": "github",
-        "link": "https://github.com/niranjanhegde144"
+        "id": 2,
+        "name": "MAHADEVI N C",
+        "description": [
+          {
+            "id": "org5-1",
+            "status": "Coding Enthusiast"
+          }
+        ],
+        "profile": "https://avatars2.githubusercontent.com/u/72809868?s=400&u=510f2f375b361075ef4074df20195c406e87b51f&v=4",
+        "contact": [
+          {
+            "id": "contact5-1",
+            "icon": "desktop",
+            "link": "https://www.hackerrank.com/Mahadevi_N_C"
+          },
+          {
+            "id": "contact5-2",
+            "icon": "github",
+            "link": "https://github.com/Mahadevinc"
+          },
+          {
+            "id": "contact5-3",
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/mahadevi-n-c-865a061a2"
+          }
+        ]
       }
     ]
   },
-
   {
     "id": 3,
-    "name": "Pranav N",
-    "description": [
+    "team": "Mangement Team",
+    "members": [
       {
-        "id": "org3-1",
-        "status": "Lead at",
-        "organization": "https://pranavbharadwaj007.github.io/Codingthorofficial/",
-        "name": "Coding Thor"
-      }
-    ],
-    "profile": "https://avatars1.githubusercontent.com/u/55646472?s=400&u=14f72c26eb7087a160e0415a30f183001067c92a&v=4",
-    "contact": [
-      {
-        "id": "contact3-1",
-        "icon": "twitter",
-        "link": "https://twitter.com/PranaV79977"
-      },
-      {
-        "id": "contact3-2",
-        "icon": "linkedin",
-        "link": "https://www.linkedin.com/in/pranavbharadwaj007/"
-      },
-      {
-        "id": "contact3-3",
-        "icon": "github",
-        "link": "https://github.com/pranavbharadwaj007"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Vivek Singh Kushwaha ",
-    "description": [
-      {
-        "id": "org4-1",
-        "status": "Marketing Analyst intern at",
-        "organization": "https://www.marketgad.com/",
-        "name": "MarketGad"
-      }
-    ],
-    "profile": "https://media-exp1.licdn.com/dms/image/C4E03AQFOY_Tze8VQYw/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=dOMZDFbpE2RB29LzmUlCB3W07ciO5poXXWr3H7P3dxA",
-    "contact": [
-      {
-        "id": "contact4-1",
-        "icon": "desktop",
-        "link": "https://www.quora.com/profile/Vivek-Singh-3656?ch=10&share=26165be1&srid=5AJXi"
-      },
-      {
-        "id": "contact4-2",
-        "icon": "linkedin",
-        "link": "https://www.linkedin.com/in/viveksinghkushwaha"
-      },
-      {
-        "id": "contact4-3",
-        "icon": "twitter",
-        "link": "https://twitter.com/engineerhoonmei?s=09"
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "name": "MAHADEVI N C",
-    "description": [
-      {
-        "id": "org5-1",
-        "status": "Coding Enthusiast"
-      }
-    ],
-    "profile": "https://avatars2.githubusercontent.com/u/72809868?s=400&u=510f2f375b361075ef4074df20195c406e87b51f&v=4",
-    "contact": [
-      {
-        "id": "contact5-1",
-        "icon": "desktop",
-        "link": "https://www.hackerrank.com/Mahadevi_N_C"
-      },
-      {
-        "id": "contact5-2",
-        "icon": "github",
-        "link": "https://github.com/Mahadevinc"
-      },
-      {
-        "id": "contact5-3",
-        "icon": "linkedin",
-        "link": "https://www.linkedin.com/in/mahadevi-n-c-865a061a2"
+        "id": 1,
+        "name": "Vivek Singh Kushwaha ",
+        "description": [
+          {
+            "id": "org4-1",
+            "status": "Marketing Analyst intern at",
+            "organization": "https://www.marketgad.com/",
+            "name": "MarketGad"
+          }
+        ],
+        "profile": "https://media-exp1.licdn.com/dms/image/C4E03AQFOY_Tze8VQYw/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=dOMZDFbpE2RB29LzmUlCB3W07ciO5poXXWr3H7P3dxA",
+        "contact": [
+          {
+            "id": "contact4-1",
+            "icon": "desktop",
+            "link": "https://www.quora.com/profile/Vivek-Singh-3656?ch=10&share=26165be1&srid=5AJXi"
+          },
+          {
+            "id": "contact4-2",
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/viveksinghkushwaha"
+          },
+          {
+            "id": "contact4-3",
+            "icon": "twitter",
+            "link": "https://twitter.com/engineerhoonmei?s=09"
+          }
+        ]
       }
     ]
   }
-  
 ]
-
-

@@ -1,3 +1,9 @@
+/* Default */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* NavBar */
 
 .navbar-light .navbar-nav .nav-link {
@@ -76,7 +82,6 @@
   border: #FDFDFD 0.5px solid;
   opacity: 0.75;
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   margin-right: 1%;
   margin-left: 1%;
@@ -127,6 +132,11 @@
   font-size: 50px;
 }
 
+.text-medium {
+  font-family: "Montserrat", sans-serif;
+  font-size: 35px;
+}
+
 .text-small {
   font-family: "Montserrat", sans-serif;
   font-size: 19px;
@@ -163,7 +173,6 @@
   border: #FDFDFD 0.5px solid;
   opacity: 0.75;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   margin-right: 1%;
   margin-left: 1%;
@@ -177,7 +186,6 @@
   border: #FDFDFD 0.5px solid;
   opacity: 0.75;
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   margin-right: 1%;
   margin-left: 1%;
@@ -291,8 +299,27 @@ Contributors
   opacity: 1;
 }
 
+
+.teamCard {
+  width: 98%;
+  height: auto;
+  border: #FDFDFD 0.5px solid;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-bottom: 1%;
+}
+
+.members {
+  display: flex;
+  margin: 1px;
+  padding: 10px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 @media screen and (max-width: 600px) {
   .contributor {
-    width: 100%;
+    width: 95%;
   }
 }
