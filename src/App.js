@@ -54,8 +54,8 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
       <Route exact path="/" component={Home} />
-      <Route path="/notes" 
-        render={(props) => <Notes details={notes_data} {...props} />}      
+      <Route path="/notes"
+        render={(props) => <Notes details={notes_data} {...props} />}
       />
       <Route path="/programming" component={Programming} />
       <Route path="/result" component={Result} />
