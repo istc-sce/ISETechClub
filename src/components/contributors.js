@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faTwitter,faGooglePlay } from "@fortawesome/free-brands-svg-icons";
 
 const fontAwesomeStyle = {
   color: "white",
@@ -71,6 +71,14 @@ let mapDetail = (details) => {
                                 icon={faTwitter}
                                 size="lg"
                               />
+                            );
+                          case "google-play":
+                            return (
+                                <FontAwesomeIcon 
+                                style = {fontAwesomeStyle}
+                                icon = {faGooglePlay}
+                                size = "lg"
+                                />
                             );
                           default:
                             return (
