@@ -75,9 +75,8 @@
         "description": [
           {
             "id": "org3-1",
-            "status": "Lead at",
-            "organization": "https://pranavbharadwaj007.github.io/Codingthorofficial/",
-            "name": "Coding Thor"
+            "status": "Web Developer"
+           
           }
         ],
         "profile": "https://avatars1.githubusercontent.com/u/55646472?s=400&u=14f72c26eb7087a160e0415a30f183001067c92a&v=4",
@@ -166,7 +165,7 @@
         "name": "Vivek Singh Kushwaha ",
         "description": [
           {
-            "id": "org4-1",
+            "id": "org1-1",
             "status": "Marketing Analyst intern at",
             "organization": "https://www.marketgad.com/",
             "name": "MarketGad"
@@ -175,19 +174,145 @@
         "profile": "https://media-exp1.licdn.com/dms/image/C4E03AQFOY_Tze8VQYw/profile-displayphoto-shrink_200_200/0?e=1608163200&v=beta&t=dOMZDFbpE2RB29LzmUlCB3W07ciO5poXXWr3H7P3dxA",
         "contact": [
           {
-            "id": "contact4-1",
+            "id": "contact1-1",
             "icon": "desktop",
             "link": "https://www.quora.com/profile/Vivek-Singh-3656?ch=10&share=26165be1&srid=5AJXi"
           },
           {
-            "id": "contact4-2",
+            "id": "contact1-2",
             "icon": "linkedin",
             "link": "https://www.linkedin.com/in/viveksinghkushwaha"
           },
           {
-            "id": "contact4-3",
+            "id": "contact1-3",
             "icon": "twitter",
             "link": "https://twitter.com/engineerhoonmei?s=09"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Sanjana Sinha ",
+        "description": [
+          {
+            "id": "org2-1",
+            "status": "Coordinator at",
+            "organization": "https://sce-tech-club.netlify.app/",
+            "name": "I.S.Technical Club"
+          }
+        ],
+        "profile": "https://media-exp1.licdn.com/dms/image/C4E03AQG8PeuwFTI4Ew/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=nXwxiDSj0va2ctRqMQSzIkOP9-aFZ-Kqd8ag3ebhgTQ",
+        "contact": [
+          {
+            "id": "contact2-1",
+            "icon": "github",
+            "link": "https://github.com/more0artie"
+          },
+          {
+            "id": "contact2-2",
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/mwlite/in/sanjana-sinha-68147b1b6"
+          },
+          {
+            "id": "contact2-3",
+            "icon": "twitter",
+            "link": "https://twitter.com/engineerhoonmei?s=09"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "team": "Coordinators",
+    "members": [
+      {
+        "id": 1,
+        "name": "Shreya Ranjan",
+        "description": [
+          {
+            "id": "org1-1",
+            "status": "Coordinator at",
+            "organization": "https://sce-tech-club.netlify.app/",
+            "name": " IS Technical Club"
+          }
+        ],
+        "profile": "https://media-exp1.licdn.com/dms/image/C4E03AQGhDZj0IsDEaA/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=j-9advzewGj2Pw9RS9-fxV7yXCf_GHtNq8y6mQzfhs0",
+        "contact": [
+          {
+            "id": "contact1-1",
+            "icon": "github",
+            "link": "https://github.com/ShreyaRanjan23"
+          },
+          {
+            "id": "contact1-2",
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/shreya-ranjan-814aa51b6/"
+          },
+          {
+            "id": "contact1-3",
+            "icon": "twitter",
+            "link": "https://twitter.com/ShreyaRanjan23"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Mayank Sharma",
+        "description": [
+          {
+            "id": "org2-1",
+            "status": "Coordinator at",
+            "organization": "https://sce-tech-club.netlify.app/",
+            "name": "I.S.Technical Club"
+          }
+        ],
+        "profile": "https://media-exp1.licdn.com/dms/image/C4D03AQHLz78bdeK87g/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=-nPxmYoqkw2YuTcmH84tVdJJeK30qvPR69cWkI-499g",
+        "contact": [
+          {
+            "id": "contact2-1",
+            "icon": "github",
+            "link": "https://github.com/MaYaNksharma04"
+          },
+          {
+            "id": "contact2-2",
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/mayank-sharma-1738a5186"
+          },
+          {
+            "id": "contact2-3",
+            "icon": "twitter",
+            "link": "https://twitter.com/MayankSharma_ii?s=09"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Prateek Kumar Singh",
+        "description": [
+          {
+            "id": "org3-1",
+            "status": "Coordinator at",
+            "organization": "https://sce-tech-club.netlify.app/",
+            "name": "I.S.Technical Club"
+          }
+        ],
+        "profile": "https://media-exp1.licdn.com/dms/image/C4D03AQGp6ZRx-lxTQQ/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=YoKhOdUba2BnTVYsLmFFpM0epYlO2lwRM2BIto1-KIw",
+        "contact": [
+          {
+            "id": "contact3-1",
+            "icon": "github",
+            "link": "https://github.com/prateek-kumar-singh"
+          },
+          {
+            "id": "contact3-2",
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/prateek-kumar-singh-b503a41a5"
+          },
+          {
+            "id": "contact3-3",
+            "icon": "twitter",
+            "link": "https://twitter.com/Prateek98724543?s=08"
           }
         ]
       }
