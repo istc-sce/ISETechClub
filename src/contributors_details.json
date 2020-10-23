@@ -67,7 +67,7 @@
   },
   {
     "id": 2,
-    "team": "Web Development Team",
+    "team": "Development Team",
     "members": [
       {
         "id": 1,
@@ -126,15 +126,9 @@
             "link": "https://www.linkedin.com/in/mahadevi-n-c-865a061a2"
           }
         ]
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "team": "App Development Team",
-    "members": [
+      },
       {
-        "id": 1,
+        "id": 3,
         "name": "Ashutosh",
         "description": [
           {
