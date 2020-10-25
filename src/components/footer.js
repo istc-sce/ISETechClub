@@ -51,22 +51,22 @@ class Footer extends Component {
               
                 <ul>
                <li>
-                  <Link eventKey="5" as={Link} to="/notes">
+                  <Link  as={Link} to="/notes">
               Notes
             </Link>
                  </li>
                  <li>
-            <Link eventKey="6" as={Link} to="/events">
+            <Link as={Link} to="/events">
               Events
             </Link>
                  </li>
                  <li>
-            <Link eventKey="2" as={Link} to="/programming">
+            <Link  as={Link} to="/programming">
               Programming
             </Link>
                  </li>
                  <li>
-            <Link eventKey="4" as={Link} to="/team">
+            <Link  as={Link} to="/team">
               Team
             </Link>
                  </li>
@@ -81,7 +81,7 @@ class Footer extends Component {
                                 <h3> <FontAwesomeIcon
                                 style={fontAwesomeStyle}
                                 icon={faEnvelope}
-                                size="sg"
+                                size="sm"
                                 /> istcsce@gmail.com</h3>
                                 </div>
                 </div>
