@@ -223,6 +223,24 @@
   object-fit: cover;
 }
 
+.section-notes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+}
+
+@media only screen and (max-width: 960px) {
+  .thumb-notes {
+    display: none;
+    height: auto;
+  }
+
+  .section-notes {
+    height: auto;
+  }
+}
+
 /* Programming */
 
 .bannerImageProgramming {
@@ -290,6 +308,7 @@ Teams
 .about {
   padding: 90px 0;
   text-align: center;
+  text-shadow: 0 0 5px #000000, 0 0 5px #000000;
 }
 
 .about p {

@@ -75,10 +75,10 @@ function App() {
             <Nav.Link eventKey="6" as={Link} to="/events">
               Events
             </Nav.Link>
+            {/*
             <Nav.Link eventKey="1" as={Link} to="/blogs">
               Blogs
             </Nav.Link>
-
             {/* 
             <Nav.Link eventKey="3" as={Link} to="/result">
               Result 
