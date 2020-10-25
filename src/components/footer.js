@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDesktop, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin, faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 const fontAwesomeStyle = {
     color: "black",
     marginRight:"2px",
