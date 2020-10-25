@@ -12,6 +12,7 @@ import contributor_details from "./contributors_details.json";
 import notes_data from "./notes_details.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar } from "react-bootstrap";
+import Footer from "./components/footer.js";
 import ShortIcon from "./components/images/shortIcon.png";
 function App() {
   return (
@@ -67,6 +68,7 @@ function App() {
         path="/team"
         render={(props) => <Contributors details={contributor_details} {...props} />}
       />
+      <Footer/>
     </div>
   );
 }

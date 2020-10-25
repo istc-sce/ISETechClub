@@ -19,26 +19,18 @@ class Footer extends Component {
             <div className="footer">
                <div className="footer-content">
                 <div className="footer-section about">
-                <h1 className="logo-text"><span>ISE</span>Techinical Club</h1>
-                <p>
-                ISTC OR Information Science Technical Club is a student run body founded by our alumni and students with the help of our HOD and few of our very experienced teachers in 2019.
-                </p>
-                <div className="contactwe">
-                <FontAwesomeIcon
-                                style={fontAwesomeStyle}
-                                icon={faEnvelope}
-                                size="sg"
-                              />
-                              istcsce@gmail.com
-                     
+                <h1 className="logo-text"> Follow US</h1>
+                <div className="follow">
+
                 </div>
+                
                 <div className="socials">
                   <a href="https://www.linkedin.com/company/is-technical-club-sce"><FontAwesomeIcon
                                 style={fontAwesomeStyle}
                                 icon={faLinkedin}
                                 size="2x"
                               /></a>
-                              <a href="#">
+                              <a href="https://www.instagram.com/istcsce/?igshid=auqnvolgbjii">
                               <FontAwesomeIcon
                                 style={fontAwesomeStyle}
                                 icon={faInstagram}
@@ -55,8 +47,8 @@ class Footer extends Component {
                 </div>
                 </div>
                 <div className="footer-section links">
-                <h2>Quick links</h2>
-                <br/>
+                <h1>Quick links</h1>
+              
                 <ul>
                <li>
                   <Link eventKey="5" as={Link} to="/notes">
@@ -66,11 +58,6 @@ class Footer extends Component {
                  <li>
             <Link eventKey="6" as={Link} to="/events">
               Events
-            </Link>
-                 </li>
-                 <li>
-            <Link eventKey="1" as={Link} to="/blogs">
-              Blogs
             </Link>
                  </li>
                  <li>
@@ -84,6 +71,19 @@ class Footer extends Component {
             </Link>
                  </li>
                 </ul>
+                </div>
+                <div className="footer-section contactWe">
+                    <h1>
+                        Contact Us
+                    </h1>
+                    <div className="contactwe">
+                   
+                                <h3> <FontAwesomeIcon
+                                style={fontAwesomeStyle}
+                                icon={faEnvelope}
+                                size="sg"
+                                /> istcsce@gmail.com</h3>
+                                </div>
                 </div>
                </div>
                <div className="footer-bottom">
