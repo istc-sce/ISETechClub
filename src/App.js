@@ -2,56 +2,60 @@ import React from "react";
 import { Link, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./components/home.js";
-import Programming from "./components/programming.js";
 import Result from "./components/result.js";
 import Notes from "./components/notes.js";
 import Blogs from "./components/blogs.js";
 import Teams from "./components/teams.js";
 import Event from "./components/events.js";
 import contributor_details from "./contributors_details.json";
-import blogs_details from "./blog_links.json";
+// import blogs_details from "./blog_links.json";
 import notes_data from "./notes_details.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ShortIcon from "./components/images/shortIcon.png";
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import ProgrammingArticle from "./components/programming_articles";
+import Questions from "./components/programming_article_questions";
+import Problems from "./components/problems";
 
-// Fetching the necessary data for the preview link.
-const proxy = "https://cors-anywhere.herokuapp.com/";
-const descPattern = '<meta.*name="description".*content="(.*?)".*>';
-const titlePattern = "<title>(.*?)</title>";
-const iconPattern = '<link.*?rel=".*?icon".*href="(.*?)".*?>';
-// Have to verify this pattern
-const contentImagePattern = '<meta.*property="og:image".*content="(.*?)".*>';
+// Blogs
+// // Fetching the necessary data for the preview link.
+// const proxy = "https://cors-anywhere.herokuapp.com/";
+// const descPattern = '<meta.*name="description".*content="(.*?)".*>';
+// const titlePattern = "<title>(.*?)</title>";
+// const iconPattern = '<link.*?rel=".*?icon".*href="(.*?)".*?>';
+// // Have to verify this pattern
+// const contentImagePattern = '<meta.*property="og:image".*content="(.*?)".*>';
 const data = [];
-let description, title, icon, contentImage, dataObj;
+// let description, title, icon, contentImage, dataObj;
 
-const getContent = async (url) => {
-  var response = await fetch(proxy + url);
-  switch (response.status) {
-    // status "OK"
-    case 200:
-      var template = await response.text();
-      try {
-        description = template.match(descPattern)[1];
-        title = template.match(titlePattern)[1];
-        icon = template.match(iconPattern);
-        contentImage = template.match(contentImagePattern)[1];
-      } catch (err) {
-        console.log(err);
-      }
-      dataObj = {
-        title: title || "Missing Title for Article",
-        description: description || "Missing Description for Article",
-        image: contentImage || icon || "Missing Image for Article",
-        link: url,
-      };
-      data.push(dataObj);
-      break;
-    default:
-      break;
-  }
-};
-blogs_details.forEach(getContent);
+// const getContent = async (url) => {
+//   var response = await fetch(proxy + url);
+//   switch (response.status) {
+//     // status "OK"
+//     case 200:
+//       var template = await response.text();
+//       try {
+//         description = template.match(descPattern)[1];
+//         title = template.match(titlePattern)[1];
+//         icon = template.match(iconPattern);
+//         contentImage = template.match(contentImagePattern)[1];
+//       } catch (err) {
+//         console.log(err);
+//       }
+//       dataObj = {
+//         title: title || "Missing Title for Article",
+//         description: description || "Missing Description for Article",
+//         image: contentImage || icon || "Missing Image for Article",
+//         link: url,
+//       };
+//       data.push(dataObj);
+//       break;
+//     default:
+//       break;
+//   }
+// };
+// blogs_details.forEach(getContent);
+
 function App() {
   return (
     <div>
@@ -74,15 +78,31 @@ function App() {
             <Nav.Link eventKey="1" as={Link} to="/blogs">
               Blogs
             </Nav.Link>
-            <Nav.Link eventKey="2" as={Link} to="/programming">
-              Programming
-            </Nav.Link>
+
+            {/* 
             <Nav.Link eventKey="3" as={Link} to="/result">
-              Result
+              Result 
             </Nav.Link>
+            */}
             <Nav.Link eventKey="4" as={Link} to="/team">
               Team
             </Nav.Link>
+            <NavDropdown title="Programming" id="nav-dropdown">
+              <NavDropdown.Item
+                eventKey="7.1"
+                as={Link}
+                to="/programming/articles"
+              >
+                Article Section
+              </NavDropdown.Item>
+              <NavDropdown.Item
+                eventKey="7.2"
+                as={Link}
+                to="/programming/problems"
+              >
+                Coding Section
+              </NavDropdown.Item>
+            </NavDropdown>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -91,7 +111,11 @@ function App() {
         path="/notes"
         render={(props) => <Notes details={notes_data} {...props} />}
       />
-      <Route path="/programming" component={Programming} />
+      <Route
+        path="/programming/articles"
+        render={(props) => <ProgrammingArticle data={Questions} {...props} />}
+      />
+      <Route path="/programming/problems" component={Problems} />
       <Route path="/result" component={Result} />
       {/* Need to pass the props when the data has been completely read. Data read should be either made synchronous or have to think about other method. */}
       <Route
