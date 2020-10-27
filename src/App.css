@@ -79,20 +79,19 @@
 }
 
 .homeBackground {
-  background: linear-gradient(180deg, #000000 41%, #db49c8 61%, #ffffff 91%);
+  background: #191B1F !important;
 }
 
 .homeCard {
-  background: #191B1F !important;
+  background: #FEAC5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FDFDFD;
-  width: 98%;
+  width: 100%;
   height: auto;
   border: #FDFDFD 0.5px solid;
-  opacity: 0.75;
   text-align: left;
   display: inline-block;
-  margin-right: 1%;
-  margin-left: 1%;
 }
 
 .section {
@@ -206,6 +205,12 @@
   opacity: 0.75;
   text-align: center;
   display: inline-block;
+}
+
+.notesBackground {
+  background: #FEAC5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 
@@ -330,7 +335,10 @@ Contributors
 
 
 .teamCard {
-  width: 98%;
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+width: 98%;
   height: auto;
   border: #FDFDFD 0.5px solid;
   border-radius: 10px;
@@ -345,6 +353,12 @@ Contributors
   padding: 10px;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.teamBackground {
+  background: #FEAC5E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 @media screen and (max-width: 600px) {

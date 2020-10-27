@@ -105,7 +105,7 @@ let mapDetail = (details) => {
 export default function Contributors(props) {
   const data = props.details;
   return (
-    <div className="homeBackground">
+    <div className="teamBackground">
     <div className="profile">{data.map((detail) => mapDetail(detail))}</div>
     </div>
   );
