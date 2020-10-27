@@ -59,6 +59,10 @@
   display: none;
 }
 
+.break {
+  display: inline;
+}
+
 @media screen and (max-width: 960px) {
   .bannerImage {
     width: 100%;
@@ -68,10 +72,15 @@
     display: inline;
     color: red;
   }
+
+  .break {
+    display: none;
+  }
 }
 
 .homeBackground {
-  background: linear-gradient(180deg, #d753db 31%, #ffffff 81%);
+  margin: 0;
+  background: linear-gradient(180deg, #000000 41%, #db49c8 61%, #ffffff 91%);
 }
 
 .homeCard {
