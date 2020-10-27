@@ -71,7 +71,7 @@
 }
 
 .homeBackground {
-  background: #0e0f11;
+  background: linear-gradient(180deg, #d753db 31%, #ffffff 81%);
 }
 
 .homeCard {
