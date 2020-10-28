@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin, faTwitter,faGooglePlay } from "@fortawesome/free-brands-svg-icons";
-
+import Fade from 'react-reveal/Fade';
 const fontAwesomeStyle = {
   color: "white",
 };
@@ -10,10 +10,13 @@ const fontAwesomeStyle = {
 let mapDetail = (details) => {
   return (
     <div className="teamCard" key={details.id}>
+    
       <p className="sectiontag text-medium text1">
-        {details.team}
+      <Fade bottom>
+        {details.team}</Fade>
       </p>
       <div className="members">
+      <Fade bottom>
         {details.members.map((detail) => (
           <div className="contributor" key={detail.id}>
             <img src={detail.profile} alt="profile" />
@@ -97,6 +100,7 @@ let mapDetail = (details) => {
             </div>
           </div>
         ))}
+        </Fade>
       </div>
     </div>
   );
