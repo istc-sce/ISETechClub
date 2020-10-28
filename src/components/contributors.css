@@ -74,8 +74,7 @@
 }
 
 .teamCard {
-    background: #000000;
-    /* fallback for old browsers */
+    background: transparent;
     width: 98%;
     height: auto;
     border: #FDFDFD 0.5px solid;
@@ -94,12 +93,9 @@
 }
 
 .teamBackground {
-    background: #FEAC5E;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #4b6cb7;
+    background: -webkit-linear-gradient(to bottom, #182848, #4b6cb7);
+    background: linear-gradient(to bottom, #182848, #4b6cb7);
 }
 
 @media screen and (max-width: 600px) {

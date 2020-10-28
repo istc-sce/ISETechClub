@@ -7,7 +7,9 @@
 }
 
 .homeBackground {
-    background: #191B1F !important;
+    background: #005AA7;
+    background: -webkit-linear-gradient(to bottom, #FFFDE4, #005AA7);
+    background: linear-gradient(to bottom, #FFFDE4, #005AA7);
 }
 
 .homeCard {
@@ -44,7 +46,6 @@
 .imgfluid {
     height: 160px;
     border-radius: 39px;
-    /* border: 2px solid rgb(186, 231, 248); */
 }
 
 .paras {
