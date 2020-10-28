@@ -37,7 +37,7 @@ class Footer extends Component {
                                 size="2x"
                               />
                               </a>
-               <a href="https://github.com/istc-sce/ISETechClub" target="_blank" rel="noopener noreferrer">
+               <a href="https://github.com/istc-sce" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon
                                 style={fontAwesomeStyle}
                                 icon={faGithub}
