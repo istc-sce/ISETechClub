@@ -1,0 +1,109 @@
+.profile {
+    display: flex;
+    margin: 1px;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contributor {
+    margin: 5px;
+    width: 300px;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.contributor img {
+    width: 100%;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    opacity: 1;
+    height: 100%;
+    transition: 0.3s ease-out;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    color: rgb(255, 254, 254);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.about {
+    padding: 90px 0;
+    text-align: center;
+    text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+}
+
+.about p {
+    display: inline;
+}
+
+.desc {
+    text-align: center;
+    padding: 3px;
+}
+
+.name {
+    margin-bottom: 5px;
+}
+
+.contact {
+    margin: 5px 10%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.contributor:hover img {
+    opacity: 0.5;
+    filter: blur(4px);
+    transition: 0.3s ease-in;
+}
+
+.contributor:hover .overlay {
+    opacity: 1;
+}
+
+.teamCard {
+    background: #000000;
+    /* fallback for old browsers */
+    width: 98%;
+    height: auto;
+    border: #FDFDFD 0.5px solid;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 1%;
+}
+
+.members {
+    display: flex;
+    margin: 1px;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.teamBackground {
+    background: #FEAC5E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4BC0C8, #C779D0, #FEAC5E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media screen and (max-width: 600px) {
+    .contributor {
+        width: 95%;
+    }
+}
