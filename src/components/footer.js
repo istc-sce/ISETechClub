@@ -25,19 +25,19 @@ class Footer extends Component {
                 </div>
                 
                 <div className="socials">
-                  <a href="https://www.linkedin.com/company/is-technical-club-sce" target="_blank"><FontAwesomeIcon
+                  <a href="https://www.linkedin.com/company/is-technical-club-sce" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon
                                 style={fontAwesomeStyle}
                                 icon={faLinkedin}
                                 size="2x"
                               /></a>
-                              <a href="https://www.instagram.com/istcsce/?igshid=auqnvolgbjii" target="_blank">
+                              <a href="https://www.instagram.com/istcsce/?igshid=auqnvolgbjii" target="_blank" rel="noopener noreferrer">
                               <FontAwesomeIcon
                                 style={fontAwesomeStyle}
                                 icon={faInstagram}
                                 size="2x"
                               />
                               </a>
-               <a href="https://github.com/istc-sce/ISETechClub" target="_blank">
+               <a href="https://github.com/istc-sce/ISETechClub" target="_blank" rel="noopener noreferrer">
                <FontAwesomeIcon
                                 style={fontAwesomeStyle}
                                 icon={faGithub}

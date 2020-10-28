@@ -117,28 +117,23 @@
 
 .text1 {
     color: rgb(226, 244, 247);
-    font-family: "Montserrat", sans-serif;
     font-size: 40px;
 }
 
 .text2 {
     color: rgb(236, 241, 247);
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
 }
 
 .text-big {
-    font-family: "Montserrat", sans-serif;
     font-size: 50px;
 }
 
 .text-medium {
-    font-family: "Montserrat", sans-serif;
     font-size: 35px;
 }
 
 .text-small {
-    font-family: "Montserrat", sans-serif;
     font-size: 19px;
 }
 
@@ -400,7 +395,7 @@
         flex-direction: column;
     }
     .footer .footer-content .footer-section {
-        padding: 25px;
+        padding-bottom: 25px;
     }
     .contactwe {
         padding-bottom: 20px;
