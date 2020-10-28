@@ -367,6 +367,10 @@
     background-color: transparent;
 }
 
+.contactwe {
+    padding-bottom: 2px;
+}
+
 .footer .footer-content .footer-section ul a:hover {
     color: #2571e2 !important;
     text-decoration: none;
@@ -398,6 +402,6 @@
         padding-bottom: 25px;
     }
     .contactwe {
-        padding-bottom: 20px;
+        padding-bottom: 29px;
     }
 }
