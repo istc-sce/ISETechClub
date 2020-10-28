@@ -395,11 +395,14 @@
         height: auto;
     }
     .footer .footer-content {
-        padding-bottom: 15px;
+        padding-bottom: 35px;
         height: auto;
         flex-direction: column;
     }
     .footer .footer-content .footer-section {
-        padding: 29px;
+        padding: 25px;
+    }
+    .contactwe {
+        padding-bottom: 20px;
     }
 }
