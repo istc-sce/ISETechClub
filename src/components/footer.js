@@ -60,11 +60,11 @@ class Footer extends Component {
               Events
             </Link>
                  </li>
-                 <li>
-            <Link  as={Link} to="/programming">
+                 {/* <li>
+            <Link  as={Link} to="/programming"> 
               Programming
             </Link>
-                 </li>
+                 </li>*/}
                  <li>
             <Link  as={Link} to="/team">
               Team
@@ -82,7 +82,7 @@ class Footer extends Component {
                                 style={fontAwesomeStyle}
                                 icon={faEnvelope}
                                 size="sm"
-                                /> istcsce@gmail.com</h3>
+                                /> mailto: istcsce@gmail.com</h3>
                                 </div>
                 </div>
                </div>
