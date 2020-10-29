@@ -371,6 +371,10 @@
     padding-bottom: 2px;
 }
 
+.contactwe a {
+    color: black;
+}
+
 .footer .footer-content .footer-section ul a:hover {
     color: #2571e2 !important;
     text-decoration: none;

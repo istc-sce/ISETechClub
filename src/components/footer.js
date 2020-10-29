@@ -82,7 +82,7 @@ class Footer extends Component {
                                 style={fontAwesomeStyle}
                                 icon={faEnvelope}
                                 size="sm"
-                                /> mailto: istcsce@gmail.com</h3>
+                                /> <a href = "mailto:istcsce@gmail.com">istcsce@gmail.com</a></h3>
                                 </div>
                 </div>
                </div>
