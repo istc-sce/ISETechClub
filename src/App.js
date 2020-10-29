@@ -15,8 +15,8 @@ import Footer from "./components/footer.js";
 import ShortIcon from "./components/images/shortIcon.png";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import ProgrammingArticle from "./components/programming_articles";
+import Programming from "./components/programming";
 import Questions from "./components/programming_article_questions";
-import Problems from "./components/problems";
 
 // Blogs
 // // Fetching the necessary data for the preview link.
@@ -116,7 +116,7 @@ function App() {
         path="/programming/articles"
         render={(props) => <ProgrammingArticle data={Questions} {...props} />}
       />
-      <Route path="/programming/problems" component={Problems} />
+      <Route path="/programming/problems" component={Programming} />
       <Route path="/result" component={Result} />
       {/* Need to pass the props when the data has been completely read. Data read should be either made synchronous or have to think about other method. */}
       <Route
