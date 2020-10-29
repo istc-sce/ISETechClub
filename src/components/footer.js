@@ -21,7 +21,7 @@ class Footer extends Component {
       <div className="footer">
         <div className="footer-content">
           <div className="footer-section about">
-            <h2> Follow US</h2>
+            <h2 className="follow-us"> Follow US</h2>
             <div className="socials">
               <a href="https://www.linkedin.com/company/is-technical-club-sce" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon
                 style={fontAwesomeStyle}
