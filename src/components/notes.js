@@ -55,7 +55,7 @@ let mapDetail = (detail) => {
 export default function Notes(props) {
     const data = props.details;
     return (
-        <div className="notesBackground"> 
+        <div> 
             <br />
             <Jumbotron className="notesHeader">
                 <section className="section-notes" id="services">
