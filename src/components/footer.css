@@ -21,21 +21,15 @@
 .footer .footer-content .about .socials a {
     margin-top: 4px;
     margin-bottom: 3px;
-    margin-left: 3px;
-    border: none;
+    margin-left: 6px;
     width: 45px;
     text-align: center;
+    justify-content: space-evenly;
     display: inline-block;
     border-radius: 5px;
     transition: all .3s;
 }
 
-.footer .footer-content .about .socials a:hover {
-    border: 1px solid rgb(6, 74, 119);
-    width: 45px;
-    transition: all .3s;
-    border-radius: 5px;
-}
 
 .footer .footer-content .footer-section ul a {
     margin-left: 5px;
