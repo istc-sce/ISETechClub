@@ -21,7 +21,7 @@ class Footer extends Component {
       <div className="footer">
         <div className="footer-content">
           <div className="footer-section about">
-            <h1> Follow US</h1>
+            <h2> Follow US</h2>
             <div className="socials">
               <a href="https://www.linkedin.com/company/is-technical-club-sce" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon
                 style={fontAwesomeStyle}
@@ -45,7 +45,7 @@ class Footer extends Component {
             </div>
           </div>
           <div className="footer-section links">
-            <h1>Quick links</h1>
+            <h2>Quick links</h2>
 
             <ul>
               <li>
@@ -71,9 +71,9 @@ class Footer extends Component {
             </ul>
           </div>
           <div className="footer-section contactWe">
-            <h1>
+            <h2>
               Contact Us
-                    </h1>
+                    </h2>
             <div className="contactwe">
 
               <h3> <FontAwesomeIcon
