@@ -3,6 +3,8 @@ import { Jumbotron } from 'react-bootstrap';
 import Teamimg from "./images/team.svg";
 import Vision from "./images/vision.svg";
 import Mission from "./images/mission.svg";
+import "./home.css";
+
 class Home extends Component {
     render() {
         return (
