@@ -1,0 +1,52 @@
+.notesCard {
+    background: #191B1F !important;
+    color: #FDFDFD;
+    width: 98%;
+    height: auto;
+    border: #FDFDFD 0.5px solid;
+    opacity: 0.75;
+    text-align: center;
+    display: inline-block;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.notesHeader {
+    background: #191B1F !important;
+    color: #FDFDFD;
+    width: 98%;
+    height: auto;
+    border: #FDFDFD 0.5px solid;
+    opacity: 0.75;
+    text-align: left;
+    display: inline-block;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.notes {
+    background: #191B1F !important;
+    color: #FDFDFD;
+    height: auto;
+    opacity: 0.75;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.section-notes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+@media only screen and (max-width: 960px) {
+    .thumb-notes {
+        display: none;
+        height: auto;
+    }
+    .section-notes {
+        height: auto;
+    }
+}

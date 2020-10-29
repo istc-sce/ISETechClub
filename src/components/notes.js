@@ -1,6 +1,7 @@
 import React from 'react';
 import { Accordion, Card, Button, Jumbotron } from 'react-bootstrap';
 import Note from "./images/notes.svg";
+import "./notes.css";
 
 let mapDetail = (detail) => {
     return (
@@ -54,7 +55,7 @@ let mapDetail = (detail) => {
 export default function Notes(props) {
     const data = props.details;
     return (
-        <div>
+        <div> 
             <br />
             <Jumbotron className="notesHeader">
                 <section className="section-notes" id="services">

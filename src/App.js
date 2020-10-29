@@ -11,6 +11,7 @@ import contributor_details from "./contributors_details.json";
 // import blogs_details from "./blog_links.json";
 import notes_data from "./notes_details.json";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/footer.js";
 import ShortIcon from "./components/images/shortIcon.png";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import ProgrammingArticle from "./components/programming_articles";
@@ -127,6 +128,7 @@ function App() {
         path="/team"
         render={(props) => <Teams details={contributor_details} {...props} />}
       />
+      <Footer />
     </div>
   );
 }

@@ -7,6 +7,7 @@ import {
   faTwitter,
   faGooglePlay,
 } from "@fortawesome/free-brands-svg-icons";
+import "./contributors.css";
 
 const fontAwesomeStyle = {
   color: "white",
@@ -114,6 +115,8 @@ let mapDetail = (details) => {
 export default function Teams(props) {
   const data = props.details;
   return (
-    <div className="profile">{data.map((detail) => mapDetail(detail))}</div>
+    <div className="teamBackground">
+      <div className="profile">{data.map((detail) => mapDetail(detail))}</div>
+    </div>
   );
 }
