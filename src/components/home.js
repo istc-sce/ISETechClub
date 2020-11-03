@@ -38,13 +38,13 @@ class Home extends Component {
                         </div>
                     </section>
                     <section className="section left">
-                        <div className="paras"><Fade left big>
+                        <div className="paras"><Fade left>
                             <p className="sectiontag text-big text1">Mission</p>
                             <p className="sectionsubtag text-small text2">To give students the relevant skills, confidence and opportunities to change their coding environment and knowledge about tech. We believe in working and learning together.
              We want that through the events of near future we all learn and grow.</p></Fade>
                         </div>
                         <div className="thumb">
-                        <Fade top big>
+                        <Fade top >
                             <img src={Mission} alt="idea" className="imgfluid" /></Fade>
                         </div>
                     </section>
