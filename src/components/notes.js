@@ -1,11 +1,10 @@
 import React from 'react';
 import { Accordion, Card, Button, Jumbotron } from 'react-bootstrap';
 import Note from "./images/notes.svg";
-import Fade from 'react-reveal/Fade';
+
 let mapDetail = (detail) => {
     return (
         <div>
-        <Fade bottom big>
         <Jumbotron className="notesCard" key={detail.id}>
 
             {(() => {
@@ -49,7 +48,6 @@ let mapDetail = (detail) => {
                 </Card>
             ))}
         </Jumbotron>
-        </Fade>
     </div>)
 }
 
