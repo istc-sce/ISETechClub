@@ -2,7 +2,7 @@ import React from 'react';
 import { Accordion, Card, Button, Jumbotron } from 'react-bootstrap';
 import Note from "./images/notes.svg";
 import "./notes.css";
-
+import Fade from "react-reveal/Zoom";
 let mapDetail = (detail) => {
     return (
         <Jumbotron className="notesCard" key={detail.id}>
@@ -58,6 +58,7 @@ export default function Notes(props) {
         <div> 
             <br />
             <Jumbotron className="notesHeader">
+            <Fade zoom>
                 <section className="section-notes" id="services">
                     <p className="sectiontag text1">
                         Information Science Engineering Notes
@@ -65,7 +66,7 @@ export default function Notes(props) {
                     <div className="thumb-notes">
                         <img src={Note} alt="Notes" className="imgfluid" />
                     </div>
-                </section>
+                </section></Fade>
             </Jumbotron>
             <div>
                 {data.map((detail) => mapDetail(detail))}
