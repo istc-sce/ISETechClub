@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import "./footer.css";
-import Fade from "react-reveal/Zoom";
+
 const fontAwesomeStyle = {
   color: "black",
   marginRight: "2px",
@@ -19,7 +19,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-      <Fade zoom big> 
+     
         <div className="footer-content">
           <div className="footer-section about">
             <h2 className="follow-us"> Follow US</h2>
@@ -88,7 +88,6 @@ class Footer extends Component {
         <div className="footer-bottom">
           <p>&#169; copyright reserved || ISTC </p>
         </div>
-        </Fade>
       </div>
 
     )
