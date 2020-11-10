@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
 import { Jumbotron } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Carousel from 'react-bootstrap/Carousel';
+import { Row, Col, Carousel } from 'react-bootstrap';
 import Events from "./images/eventsIcon.jpg";
 import Events1 from "./images/event1/events11.png";
 import Events2 from "./images/event1/events12.png";
+import "./events.css";
 
 
 class Event extends Component {
@@ -14,20 +13,20 @@ class Event extends Component {
         return(
         
             <div>
-
+                <br />
                 <Jumbotron className="eventsHeader">
-                    <section>
+                    <section className="section-events">
                         <Container>
                                 <Row>
                                     <Col sm={7} className="d-flex justify-content-start">
                                         <div className="d-flex align-items-center">
                                             <p className="eventhead">
-                                            ISE TECH CLUB EVENTS
+                                            ISE Tech Club Events
                                             </p>
                                         </div>
                                     </Col> 
                                     <Col sm={5} className="d-flex justify-content-center">  
-                                        <div className="eventImage">
+                                        <div className="thumb-events">
                                             <img src={ Events } alt=" Events " className="imgfluid" />
                                         </div>
                                     </Col>

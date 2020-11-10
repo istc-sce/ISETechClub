@@ -53,29 +53,6 @@
     right: 0;
     top: 55px;
 }
-
-.eventsHeader {
-    background:  #191B1F !important;
-    color: #FDFDFD;
-    width: 98%;
-    height: auto;
-    border: #FDFDFD 0.5px solid;
-    opacity: 0.75;
-    text-align: left;
-    display: inline-block;
-    margin-right: 1%;
-    margin-left: 1%;
-    margin-top: 2%;
-}
-  
-.eventhead {
-    text-align: justify;
-    font-size: 3rem;
-}
-
-.eventtext {
-    color: rgb(37, 161, 151);
-}
   
 
 
