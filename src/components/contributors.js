@@ -10,7 +10,7 @@ const fontAwesomeStyle = {
 
 let mapDetail = (details) => {
   return (
-    <div>
+   
     <Fade left>
     <div className="teamCard" key={details.id}>
       <p className="sectiontag text-medium text1">
@@ -104,7 +104,7 @@ let mapDetail = (details) => {
         ))}
         
       </div></Fade>
-    </div>
+   
   );
 };
 
