@@ -1,0 +1,28 @@
+.cardsContainer {
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+  margin: 5px;
+  justify-content: space-evenly;
+}
+
+.articleCard {
+  border: 1px solid blue;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 30%;
+}
+
+#containerHeader {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .articleCard {
+    display: block;
+    width: 100%;
+  }
+}

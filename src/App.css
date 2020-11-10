@@ -1,58 +1,54 @@
 /* Default */
 
 * {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /* NavBar */
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, .8) !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: rgba(18, 26, 32, 0.952) !important;
+  color: rgba(18, 26, 32, 0.952) !important;
 }
 
 * {
-    font-family: "Montserrat", sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .homeIcon {
-    height: 25px;
-    width: 35px;
-    -moz-transform: scale(2);
-    -ms-transform: scale(2);
-    -o-transform: scale(2);
-    -webkit-transform: scale(2);
-    transform: scale(2);
-    margin-left: 5px;
+  height: 25px;
+  width: 35px;
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  -o-transform: scale(2);
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  margin-left: 5px;
 }
 
 .navBarContent {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 @media screen and (max-width: 960px) {
-    .navBarToggle {
-        position: absolute;
-        right: auto;
-        left: auto;
-    }
-    .forkLink {
-        visibility: hidden;
-    }
+  .navBarToggle {
+    position: absolute;
+    right: auto;
+    left: auto;
+  }
+  .forkLink {
+    visibility: hidden;
+  }
 }
 
 .forkLink {
-    position: absolute;
-    right: 0;
-    top: 55px;
+  position: absolute;
+  right: 0;
+  top: 55px;
 }
-
-
-

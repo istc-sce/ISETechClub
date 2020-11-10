@@ -1,7 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin, faTwitter, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+  faGooglePlay,
+} from "@fortawesome/free-brands-svg-icons";
 import "./contributors.css";
 
 const fontAwesomeStyle = {
@@ -11,9 +16,7 @@ const fontAwesomeStyle = {
 let mapDetail = (details) => {
   return (
     <div className="teamCard" key={details.id}>
-      <p className="sectiontag text-medium text1">
-        {details.team}
-      </p>
+      <p className="sectiontag text-medium text1">{details.team}</p>
       <div className="members">
         {details.members.map((detail) => (
           <div className="contributor" key={detail.id}>
@@ -26,8 +29,14 @@ let mapDetail = (details) => {
                 <div className="desc">
                   {detail.description.map((orgDetails) => (
                     <div key={orgDetails.id}>
-                      <p>{orgDetails.status} <a href={orgDetails.organization} target="_blank" rel="noopener noreferrer">{orgDetails.name}</a>
-                      </p>
+                      <p>{orgDetails.status} </p>
+                      <a
+                        href={orgDetails.organization}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {orgDetails.name}
+                      </a>
                     </div>
                   ))}
                 </div>
@@ -103,7 +112,7 @@ let mapDetail = (details) => {
   );
 };
 
-export default function Contributors(props) {
+export default function Teams(props) {
   const data = props.details;
   return (
     <div className="teamBackground">
