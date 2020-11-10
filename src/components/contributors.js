@@ -3,20 +3,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDesktop } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin, faTwitter, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
 import "./contributors.css";
-import Fade from "react-reveal/Fade";
+import Fade from "react-reveal/Zoom";
 const fontAwesomeStyle = {
   color: "white",
 };
 
 let mapDetail = (details) => {
   return (
-   
-    <Fade left>
-    <div className="teamCard" key={details.id}>
+    <div className="teamCard">
+    <Fade zoom big>
+    <div key={details.id}>
       <p className="sectiontag text-medium text1">
         {details.team}
       </p>
-      </div></Fade><Fade bottom>
+      
       <div className="members">
       
         {details.members.map((detail) => (
@@ -103,9 +103,9 @@ let mapDetail = (details) => {
           </div>
         ))}
         
-      </div></Fade>
-   
-  );
+      </div>
+    </div>
+  </Fade>  </div>);
 };
 
 export default function Contributors(props) {
