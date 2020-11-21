@@ -45,12 +45,9 @@ class Event extends Component {
                                             WORKSHOP ON COMPETITIVE PROGRAMMING
                                         </h2>
                                         <p className="mt-3">
-                                            An interesting and informative 3 hours session on how to start off with competitive programming. 
-                                            Aim of this workshop was to motivate students to participate in competitive programming and improve 
-                                            their problem analysis skills. Programming is an extremely creative profession, it is a logic based 
-                                            creativity. We taught them some programming techniques and analysis of the problems. It waas a very 
-                                            good interactive session where we got well response from the students. Techniques on how to program 
-                                            and why to program were taught, which motivated learners to think in a different perspective.
+                                            An intriguing three-hour package on how to start  with competitive programming. The main aim of this session was to inculcate the habit of competitive programming among students which further enhances their mental ability and brushes up their problem-solving skills. 
+                                            Programming is an extremely creative and logic based concept. Hence, in this era, where programming is becoming an irreplaceable concept, we try making it as creative as we can so that students enjoy doing it! We tried doing this by teaching the students on how to analyse a problem and approach it with some programming techniques. 
+                                            We also motivated the students during the three-hour session. We got an amazing feedback from the students for the interactive session that we conducted.
                                         </p>
                                     </div>
                                 </Col>
