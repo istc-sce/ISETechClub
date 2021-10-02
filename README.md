@@ -1,5 +1,7 @@
 # This repo is for ISE Technical Club
 
+This is the official repo of ISE Technical Club [website](https://sce-tech-club.netlify.app).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
