@@ -4,7 +4,7 @@ import Teamimg from "./images/team.svg";
 import Vision from "./images/vision.svg";
 import Mission from "./images/mission.svg";
 import "./home.css";
-
+import Fade from "react-reveal/Fade";
 class Home extends Component {
     render() {
         return (
@@ -16,11 +16,13 @@ class Home extends Component {
                     />
                 </a>
                 <div className="bannerImage">
+                
                     <img src="https://media-exp1.licdn.com/dms/image/C511BAQFRMrZ7IbwQcw/company-background_10000/0?e=2159024400&v=beta&t=n6X6b5kikVkRnn8nkLk6W2TkEPCS3_k48lu2Xxmffl8" alt="ISE TECH CLUB" width="100%" height="auto" />
                 </div>
                 <br />
                 <Jumbotron className="homeCard">
-                    <section className="section" id="services">
+                
+                    <section className="section" id="services"><Fade bottom>
                         <div className="paras">
                             <p className="sectiontag text-big text1">About Us</p>
                             <p className="sectionsubtag text-small text2">ISTC OR Information Science Technical Club is a student run body founded by our alumni and students with the help of our HOD and few of our very experienced teachers in 2019.
@@ -28,9 +30,10 @@ class Home extends Component {
                         </div>
                         <div className="thumb">
                             <img src={Teamimg} alt="idea" className="imgfluid" />
-                        </div>
+                        </div></Fade>
                     </section>
                     <section className="section left">
+                    <Fade left>
                         <div className="paras">
                             <p className="sectiontag text-big text1">Mission</p>
                             <p className="sectionsubtag text-small text2">To give students the relevant skills, confidence and opportunities to change their coding environment and knowledge about tech. We believe in working and learning together.
@@ -38,16 +41,16 @@ class Home extends Component {
                         </div>
                         <div className="thumb">
                             <img src={Mission} alt="idea" className="imgfluid" />
-                        </div>
+                        </div></Fade>
                     </section>
-                    <section className="section">
+                    <section className="section"><Fade right>
                         <div className="paras">
                             <p className="sectiontag text-big text1">Vision</p>
                             <p className="sectionsubtag text-small text2">We believe that realizing ideas of students will make a institute more powerful,we are trying to provide a platform for those hidden ideas within you. The main vision of ISTC  is to make a student succeed upto certain extent in realising their ideas. We also aims to strengthen the Coding culture, Entrepreneurship and team work among students.</p>
                         </div>
                         <div className="thumb">
                             <img src={Vision} alt="idea" className="imgfluid" />
-                        </div>
+                        </div></Fade>
                     </section>
                 </Jumbotron>
                 <p className="note">*NOTE: To contribute in this project, open in a desktop browser*</p>

@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import "./footer.css";
-
 const fontAwesomeStyle = {
   color: "black",
   marginRight: "2px",
@@ -19,6 +18,7 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
+     
         <div className="footer-content">
           <div className="footer-section about">
             <h2 className="follow-us"> Follow US</h2>
